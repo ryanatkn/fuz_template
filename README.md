@@ -1,6 +1,10 @@
 # kitty
 
-> test repo for SvelteKit
+> a template for SvelteKit
+
+## features
+
+- none
 
 ## usage
 
