@@ -1,13 +1,11 @@
 <script lang="ts">
-	import Counter from '$lib/Counter.svelte';
+	import Mreows from '$lib/Mreows.svelte';
 </script>
 
 <main>
-	<h1>Hello world!</h1>
+	<h1>kitty</h1>
 
-	<Counter />
-
-	<p>Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
+	<Mreows />
 </main>
 
 <style>
@@ -19,7 +17,7 @@
 
 	h1 {
 		color: #ff3e00;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		font-size: 4rem;
 		font-weight: 100;
 		line-height: 1.1;

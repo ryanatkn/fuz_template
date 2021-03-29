@@ -7,7 +7,7 @@
 </script>
 
 <button on:click={increment}>
-	Clicks: {count}
+	mreows: {count}
 </button>
 
 <style>
