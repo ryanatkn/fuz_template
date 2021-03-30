@@ -23,7 +23,7 @@ npm run dev
 
 - [SvelteKit](https://kit.svelte.dev/)
 
-# :turtle: <sub>:turtle:</sub><sub><sub>:turtle:</sub></sub>
+# :turtle:<sub>:turtle:</sub><sub><sub>:turtle:</sub></sub>
 
 [Svelte](https://github.com/sveltejs/svelte) ∙
 [Vite](https://github.com/vitejs/vite) ∙
