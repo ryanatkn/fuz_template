@@ -2,10 +2,6 @@
 
 > a template for SvelteKit
 
-## features
-
-- none
-
 ## usage
 
 > tip: did you know about the "Use this template" button above? (if you're logged in)
@@ -22,6 +18,7 @@ npm run dev
 ## template
 
 - [SvelteKit](https://kit.svelte.dev/)
+- [Gro](https://github.com/feltcoop/gro)
 
 # :turtle:<sub>:turtle:</sub><sub><sub>:turtle:</sub></sub>
 
@@ -29,6 +26,7 @@ npm run dev
 [Vite](https://github.com/vitejs/vite) ∙
 [Rollup](https://github.com/rollup/rollup) ∙
 [TypeScript](https://github.com/microsoft/TypeScript) ∙
+[esbuild](https://github.com/evanw/esbuild) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
 [@lukeed\/\*](https://github.com/lukeed) ∙
 & [more](package.json)
