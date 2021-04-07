@@ -1,6 +1,6 @@
 # kitty
 
-> a template for SvelteKit
+> a static website template for [SvelteKit](https://github.com/sveltejs/kit)
 
 ## usage
 
