@@ -2,9 +2,9 @@
   "name": "kitty",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "start": "svelte-kit start"
+    "dev": "gro dev",
+    "build": "gro build",
+    "start": "gro start"
   },
   "devDependencies": {
     "@feltcoop/gro": "^0.14.0",
