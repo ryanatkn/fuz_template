@@ -13,6 +13,8 @@ npm i
 npm run dev
 ```
 
+See [SvelteKit](https://github.com/sveltejs/kit) for more.
+
 > why [`degit`](https://github.com/Rich-Harris/degit)?
 
 ## template
