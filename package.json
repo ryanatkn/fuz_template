@@ -20,7 +20,7 @@
   },
   "type": "module",
   "engines": {
-    "node": ">= 12.17.0"
+    "node": ">= 14.16.0"
   },
   "prettier": {
     "useTabs": true,
