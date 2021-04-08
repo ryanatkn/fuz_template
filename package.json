@@ -7,7 +7,7 @@
     "start": "gro start"
   },
   "devDependencies": {
-    "@feltcoop/gro": "^0.15.0",
+    "@feltcoop/gro": "^0.16.0",
     "@sveltejs/adapter-static": "next",
     "@sveltejs/kit": "next",
     "prettier": "~2.2.1",
