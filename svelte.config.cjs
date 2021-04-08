@@ -8,6 +8,11 @@ module.exports = {
 	kit: {
 		adapter: staticAdapter(),
 
+		paths: {
+			// TODO derive from `package.json`, stripping namespace as necessary
+			base: process.env.NODE_ENV === 'production' ? '/kitty' : '',
+		},
+
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 
