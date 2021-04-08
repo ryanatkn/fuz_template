@@ -25,18 +25,8 @@
 		max-width: 14rem;
 	}
 
-	p {
-		max-width: 14rem;
-		margin: 2rem auto;
-		line-height: 1.35;
-	}
-
 	@media (min-width: 480px) {
 		h1 {
-			max-width: none;
-		}
-
-		p {
 			max-width: none;
 		}
 	}
