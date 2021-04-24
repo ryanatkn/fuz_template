@@ -14,13 +14,10 @@ module.exports = {
 	preprocess: typescript(),
 	kit: {
 		adapter: staticAdapter(),
-
-		appDir: 'app', // because _app is ignored by GitHub pages by default
-		paths: {base: toSvelteKitBasePath(pkg, dev)},
-
-		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-
+		paths: {base: toSvelteKitBasePath(pkg, dev)},
+		appDir: 'app', // because _app is ignored by GitHub pages by default
+		files: {assets: 'src/static'},
 		vite: {
 			ssr: {
 				noExternal: Object.keys(pkg.dependencies || {}),
