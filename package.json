@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "gro dev",
     "build": "gro build",
-    "start": "gro start"
+    "test": "gro test",
+    "start": "gro start",
+    "deploy": "gro deploy"
   },
   "devDependencies": {
     "@feltcoop/gro": "^0.21.3",
