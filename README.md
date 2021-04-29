@@ -36,7 +36,7 @@ node build
 [TypeScript](https://github.com/microsoft/TypeScript) ∙
 [esbuild](https://github.com/evanw/esbuild) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
-[@lukeed\/\*](https://github.com/lukeed) ∙
+[@lukeed\/\*](https://github.com/lukeed)
 & [more](package.json)
 
 # 🐦
