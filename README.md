@@ -1,6 +1,7 @@
 # felt-template
 
-> a static website template for [SvelteKit](https://github.com/sveltejs/kit)
+> a static website template with [SvelteKit](https://github.com/sveltejs/kit),
+> [Gro](https://github.com/feltcoop/gro), and [Felt](https://github.com/feltcoop/felt)
 
 ## usage
 
@@ -32,6 +33,7 @@ node build
 [SvelteKit](https://github.com/sveltejs/kit) ∙
 [Vite](https://github.com/vitejs/vite) ∙
 [Gro](https://github.com/feltcoop/gro) ∙
+[Felt](https://github.com/feltcoop/felt) ∙
 [Rollup](https://github.com/rollup/rollup) ∙
 [TypeScript](https://github.com/microsoft/TypeScript) ∙
 [esbuild](https://github.com/evanw/esbuild) ∙
