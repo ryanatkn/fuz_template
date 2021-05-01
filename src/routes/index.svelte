@@ -3,7 +3,7 @@
 </script>
 
 <main>
-	<h1>kitty</h1>
+	<h1>felt-template</h1>
 	1
 	<Mreows />
 </main>

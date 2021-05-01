@@ -1,4 +1,4 @@
-# kitty
+# felt-template
 
 > a static website template for [SvelteKit](https://github.com/sveltejs/kit)
 
@@ -7,7 +7,7 @@
 > tip: did you know about the "Use this template" button above? (if you're logged in)
 
 ```bash
-npx degit ryanatkn/kitty#main cooltoy
+npx degit feltcoop/felt-template#main cooltoy
 cd cooltoy
 npm i
 npm run dev
