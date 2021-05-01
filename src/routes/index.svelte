@@ -4,7 +4,6 @@
 
 <main>
 	<h1>felt-template</h1>
-	1
 	<Mreows />
 </main>
 
