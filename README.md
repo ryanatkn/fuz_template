@@ -3,6 +3,8 @@
 > a static website template with [SvelteKit](https://github.com/sveltejs/kit),
 > [Gro](https://github.com/feltcoop/gro), and [Felt](https://github.com/feltcoop/felt)
 
+deployed: <https://feltcoop.github.io/felt-template/>
+
 ## usage
 
 > tip: did you know about the "Use this template" button above? (if you're logged in)
@@ -11,10 +13,14 @@
 npx degit feltcoop/felt-template#main cooltoy
 cd cooltoy
 npm i
+# then
 npm run dev
+# or
+gro dev
 ```
 
-See [SvelteKit](https://github.com/sveltejs/kit) for more.
+See [SvelteKit](https://github.com/sveltejs/kit)
+and [Vite](https://github.com/vitejs/vite) for more.
 
 > why [`degit`](https://github.com/Rich-Harris/degit)?
 
@@ -23,7 +29,20 @@ See [SvelteKit](https://github.com/sveltejs/kit) for more.
 ```bash
 npm run build
 node build
+# or
+gro build
+gro start
 ```
+
+## deploy
+
+```bash
+npm run deploy
+# or
+gro deploy
+```
+
+deployed: <https://feltcoop.github.io/felt-template/>
 
 ## template
 
