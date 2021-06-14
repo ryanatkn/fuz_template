@@ -3,7 +3,7 @@
 </script>
 
 <main>
-	<h1>felt-template</h1>
+	<h1>@feltcoop/felt-template</h1>
 	<Mreows />
 </main>
 

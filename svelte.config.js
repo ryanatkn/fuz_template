@@ -1,21 +1,23 @@
-const {typescript} = require('svelte-preprocess-esbuild');
-const staticAdapter = require('@sveltejs/adapter-static');
-const pkg = require('./package.json');
+import {typescript} from 'svelte-preprocess-esbuild';
+import static_adapter from '@sveltejs/adapter-static';
+import {readFileSync} from 'fs';
+
+const pkg = JSON.parse(readFileSync('./package.json', 'utf8'));
 
 const dev = process.env.NODE_ENV !== 'production';
 
 // TODO import from gro
-const toPackageRepoName = (pkg) =>
+const to_package_repo_name = (pkg) =>
 	pkg.name.includes('/') ? pkg.name.split('/').slice(1).join('/') : pkg.name;
-const toSvelteKitBasePath = (pkg, dev) => (dev ? '' : `/${toPackageRepoName(pkg)}`);
+const to_sveltekit_base_path = (pkg, dev) => (dev ? '' : `/${to_package_repo_name(pkg)}`);
 
 /** @type {import('@sveltejs/kit').Config} */
-module.exports = {
+export default {
 	preprocess: typescript(),
 	kit: {
-		adapter: staticAdapter(),
+		adapter: static_adapter(),
 		target: '#svelte',
-		paths: {base: toSvelteKitBasePath(pkg, dev)},
+		paths: {base: to_sveltekit_base_path(pkg, dev)},
 		appDir: 'app', // because _app is ignored by GitHub pages by default
 		files: {assets: 'src/static'},
 		vite: {
