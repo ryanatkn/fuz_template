@@ -1,8 +1,5 @@
 import {typescript} from 'svelte-preprocess-esbuild';
 import static_adapter from '@sveltejs/adapter-static';
-import {readFileSync} from 'fs';
-
-const pkg = JSON.parse(readFileSync(new URL('package.json', import.meta.url), 'utf8'));
 
 const dev = process.env.NODE_ENV !== 'production';
 
@@ -20,10 +17,5 @@ export default {
 		paths: {base: to_sveltekit_base_path(pkg, dev)},
 		appDir: 'app', // because _app is ignored by GitHub pages by default
 		files: {assets: 'src/static'},
-		vite: {
-			ssr: {
-				noExternal: Object.keys(pkg.dependencies || {}),
-			},
-		},
 	},
 };
