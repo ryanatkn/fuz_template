@@ -44,9 +44,7 @@ gro deploy
 
 deployed: <https://feltcoop.github.io/felt-template/>
 
-## template
-
-# :turtle:<sub>:turtle:</sub><sub><sub>:turtle:</sub></sub>
+## credits 🐢<sub>🐢</sub><sub><sub>🐢</sub></sub>
 
 [Svelte](https://github.com/sveltejs/svelte) ∙
 [SvelteKit](https://github.com/sveltejs/kit) ∙
@@ -60,4 +58,4 @@ deployed: <https://feltcoop.github.io/felt-template/>
 [@lukeed\/\*](https://github.com/lukeed)
 & [more](package.json)
 
-# 🐦
+## [🐦](https://en.wikipedia.org/wiki/Free_and_open-source_software)
