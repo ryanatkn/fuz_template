@@ -1,16 +1,25 @@
 <script lang="ts">
-	let count = 0;
+	import {icons} from '@feltcoop/felt';
+	import {random_item} from '@feltcoop/felt/util/random.js';
 
-	const increment = (): void => {
-		count += 1;
+	const items: string[] = Object.values(icons);
+
+	let mreows = ['🐱'];
+
+	const mreow = (): void => {
+		mreows = mreows.concat(random_item(items)!);
 	};
 </script>
 
-<button on:click={increment}>
-	mreows: {count}
-</button>
+<button on:click={mreow}> mreow </button>
+<div class="mreows">
+	{mreows.join('')}
+</div>
 
 <style>
+	.mreows {
+		font-size: 128px;
+	}
 	button {
 		font-family: inherit;
 		font-size: inherit;
@@ -23,11 +32,9 @@
 		width: 200px;
 		font-variant-numeric: tabular-nums;
 	}
-
 	button:focus {
 		border: 2px solid #ff3e00;
 	}
-
 	button:active {
 		background-color: rgba(255, 62, 0, 0.2);
 	}
