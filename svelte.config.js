@@ -3,7 +3,7 @@ import static_adapter from '@sveltejs/adapter-static';
 import {readFileSync} from 'fs';
 
 const dev = process.env.NODE_ENV !== 'production';
-const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
+const pkg = JSON.parse(readFileSync(new URL('package.json', import.meta.url), 'utf8'));
 
 // TODO import from gro
 const to_sveltekit_base_path = (pkg, dev) => (dev ? '' : `/${to_package_repo_name(pkg)}`);
