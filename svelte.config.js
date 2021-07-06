@@ -1,14 +1,5 @@
 import {typescript} from 'svelte-preprocess-esbuild';
 import static_adapter from '@sveltejs/adapter-static';
-import {readFileSync} from 'fs';
-
-const dev = process.env.NODE_ENV !== 'production';
-const pkg = JSON.parse(readFileSync(new URL('package.json', import.meta.url), 'utf8'));
-
-// TODO import from gro
-const to_sveltekit_base_path = (pkg, dev) => (dev ? '' : `/${to_package_repo_name(pkg)}`);
-const to_package_repo_name = (pkg) =>
-	pkg.name.includes('/') ? pkg.name.split('/').slice(1).join('/') : pkg.name;
 
 /** @type {import('@sveltejs/kit').Config} */
 export default {
@@ -16,8 +7,7 @@ export default {
 	kit: {
 		adapter: static_adapter(),
 		target: '#svelte',
-		paths: {base: to_sveltekit_base_path(pkg, dev)},
-		appDir: 'app', // because _app is ignored by GitHub pages by default
+		paths: {base: '/felt-template'}, // for GitHub pages -- delete this line for top-level domains
 		files: {assets: 'src/static'},
 		vite: {
 			ssr: {
