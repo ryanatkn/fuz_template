@@ -14,7 +14,7 @@
     "deploy": "gro deploy"
   },
   "devDependencies": {
-    "@feltcoop/felt": "^0.3.0",
+    "@feltcoop/felt": "^0.4.0",
     "@feltcoop/gro": "^0.28.3",
     "@sveltejs/adapter-static": "^1.0.0-next.13",
     "@sveltejs/kit": "^1.0.0-next.120",
