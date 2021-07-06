@@ -7,7 +7,8 @@ deployed: <https://feltcoop.github.io/felt-template>
 
 ## usage
 
-> tip: did you know about the "Use this template" button above? (if you're logged in)
+If you're logged into GitHub, click "Use this template" above or clone with
+[`degit`](https://github.com/Rich-Harris/degit):
 
 ```bash
 npx degit feltcoop/felt-template#main cooltoy
@@ -30,8 +31,6 @@ Then run `npm i` to update `package-lock.json`.
 See [SvelteKit](https://github.com/sveltejs/kit)
 and [Vite](https://github.com/vitejs/vite) for more.
 
-> why [`degit`](https://github.com/Rich-Harris/degit)?
-
 ## build
 
 ```bash
@@ -50,7 +49,7 @@ npm run deploy
 gro deploy
 ```
 
-deployed: <https://feltcoop.github.io/felt-template/>
+deployed: <https://feltcoop.github.io/felt-template>
 
 ## credits 🐢<sub>🐢</sub><sub><sub>🐢</sub></sub>
 
