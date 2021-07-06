@@ -3,7 +3,7 @@
 > a static website template with [SvelteKit](https://github.com/sveltejs/kit),
 > [Gro](https://github.com/feltcoop/gro), and [Felt](https://github.com/feltcoop/felt)
 
-deployed: <https://feltcoop.github.io/felt-template/>
+deployed: <https://feltcoop.github.io/felt-template>
 
 ## usage
 
@@ -18,6 +18,14 @@ npm run dev
 # or
 gro dev
 ```
+
+To make it your own, change `felt-template` to your project name in the following files:
+
+- [`package.json`](package.json)
+- [`svelte.config.js`](svelte.config.js)
+- [`src/routes/index.svelte`](src/routes/index.svelte)
+
+Then run `npm i` to update `package-lock.json`.
 
 See [SvelteKit](https://github.com/sveltejs/kit)
 and [Vite](https://github.com/vitejs/vite) for more.
