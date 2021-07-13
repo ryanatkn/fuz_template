@@ -37,21 +37,20 @@ and [Vite](https://github.com/vitejs/vite) for more.
 
 ```bash
 npm run build
-node build
 # or
 gro build
-gro start
 ```
 
 ## deploy
+
+[Deploy the static frontend](https://github.com/feltcoop/gro/blob/main/src/docs/deploy.md)
+to the `deploy` branch, e.g. for GitHub Pages:
 
 ```bash
 npm run deploy
 # or
 gro deploy
 ```
-
-deployed: <https://feltcoop.github.io/felt-template>
 
 ## credits 🐢<sub>🐢</sub><sub><sub>🐢</sub></sub>
 

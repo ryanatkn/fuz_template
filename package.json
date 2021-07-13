@@ -10,7 +10,6 @@
     "dev": "gro dev",
     "build": "gro build",
     "test": "gro test",
-    "start": "gro start",
     "deploy": "gro deploy"
   },
   "devDependencies": {
