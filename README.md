@@ -28,6 +28,8 @@ To make it your own, change `felt-template` to your project name in the followin
 
 Then run `npm i` to update `package-lock.json`.
 
+Optionally add a license file and `package.json` value, like `"license": "MIT"`.
+
 See [SvelteKit](https://github.com/sveltejs/kit)
 and [Vite](https://github.com/vitejs/vite) for more.
 
@@ -65,4 +67,4 @@ deployed: <https://feltcoop.github.io/felt-template>
 [@lukeed\/\*](https://github.com/lukeed)
 & [more](package.json)
 
-## [🐦](https://en.wikipedia.org/wiki/Free_and_open-source_software)
+## [🐦](https://wikipedia.org/wiki/Free_and_open-source_software)
