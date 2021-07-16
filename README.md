@@ -24,6 +24,7 @@ To make it your own, change `felt-template` to your project name in the followin
 
 - [`package.json`](package.json)
 - [`svelte.config.js`](svelte.config.js)
+- [`src/routes/__layout.svelte`](src/routes/__layout.svelte)
 - [`src/routes/index.svelte`](src/routes/index.svelte)
 
 Then run `npm i` to update `package-lock.json`.

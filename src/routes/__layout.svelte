@@ -5,6 +5,7 @@
 </script>
 
 <svelte:head>
+	<title>felt-template</title>
 	<link rel="icon" href="favicon.png" />
 </svelte:head>
 
