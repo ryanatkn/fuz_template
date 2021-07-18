@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@feltcoop/felt": "^0.4.5",
-    "@feltcoop/gro": "^0.34.2",
+    "@feltcoop/gro": "^0.34.3",
     "@sveltejs/adapter-static": "^1.0.0-next.13",
     "@sveltejs/kit": "^1.0.0-next.131",
     "prettier": "^2.3.2",
