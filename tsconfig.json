@@ -19,10 +19,9 @@
 		"importHelpers": true,
 		"esModuleInterop": true,
 		"skipLibCheck": true,
-		"baseUrl": ".",
 		"checkJs": true,
 		"paths": {
-			"$lib/*": ["src/lib/*"]
+			"$lib/*": ["./src/lib/*"]
 		}
 	}
 }
