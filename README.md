@@ -17,8 +17,10 @@ npm i
 # then
 npm run dev
 # or
-gro dev
+gro dev # npm i -g @feltcoop/gro
 ```
+
+> learn more about [gro](https://github.com/feltcoop/gro)
 
 To make it your own, change `felt-template` to your project name in the following files:
 
