@@ -6,7 +6,7 @@
 
 <svelte:head>
 	<title>felt-template</title>
-	<link rel="icon" href="favicon.png" />
+	<link rel="icon" href="/favicon.png" />
 </svelte:head>
 
 <slot />
