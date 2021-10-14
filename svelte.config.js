@@ -6,6 +6,9 @@ const dev = process.env.NODE_ENV !== 'production';
 /** @type {import('@sveltejs/kit').Config} */
 export default {
 	preprocess: typescript(),
+	compilerOptions: {
+		immutable: true,
+	},
 	kit: {
 		adapter: static_adapter(),
 		target: '#root',
