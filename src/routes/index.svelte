@@ -1,14 +1,15 @@
 <script lang="ts">
-	import Markup from '@feltcoop/felt/ui/Markup.svelte';
+	import Message from '@feltcoop/felt/ui/Message.svelte';
 
 	import Mreows from '$lib/ui/Mreows.svelte';
 </script>
 
-<main class="column">
-	<Markup>
+<main class="column markup">
+	<section class="column-min">
 		<h1>felt-template</h1>
-		<Mreows />
-	</Markup>
+		<Message>hello and welcome</Message>
+	</section>
+	<Mreows />
 </main>
 
 <style>
