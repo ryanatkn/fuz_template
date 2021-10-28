@@ -18,6 +18,6 @@
 
 <style>
 	.mreows {
-		font-size: 128px;
+		font-size: var(--icon_size_xl);
 	}
 </style>
