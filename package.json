@@ -13,10 +13,10 @@
     "deploy": "gro deploy"
   },
   "devDependencies": {
-    "@feltcoop/felt": "^0.13.0",
-    "@feltcoop/gro": "^0.44.3",
+    "@feltcoop/felt": "^0.14.1",
+    "@feltcoop/gro": "^0.45.1",
     "@sveltejs/adapter-static": "^1.0.0-next.21",
-    "@sveltejs/kit": "^1.0.0-next.191",
+    "@sveltejs/kit": "^1.0.0-next.194",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
     "svelte": "^3.44.0",
