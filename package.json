@@ -1,6 +1,6 @@
 {
   "name": "felt-template",
-  "description": "a static website template with SvelteKit, Gro, and Felt",
+  "description": "a web app template with SvelteKit, Gro, and Felt",
   "version": "0.0.1",
   "type": "module",
   "engines": {
