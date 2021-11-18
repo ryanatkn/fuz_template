@@ -61,8 +61,8 @@ gro deploy
 [SvelteKit](https://github.com/sveltejs/kit) ∙
 [Vite](https://github.com/vitejs/vite) ∙
 [Rollup](https://github.com/rollup/rollup) ∙
-[TypeScript](https://github.com/microsoft/TypeScript) ∙
 [esbuild](https://github.com/evanw/esbuild) ∙
+[TypeScript](https://github.com/microsoft/TypeScript) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
 [Felt](https://github.com/feltcoop/felt) ∙
 [Gro](https://github.com/feltcoop/gro) ∙
