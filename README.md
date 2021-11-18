@@ -1,7 +1,7 @@
 # felt-template
 
 > a web app template with [SvelteKit](https://github.com/sveltejs/kit),
-> [Gro](https://github.com/feltcoop/gro), and [Felt](https://github.com/feltcoop/felt)
+> [Felt](https://github.com/feltcoop/felt), and [Gro](https://github.com/feltcoop/gro)
 
 deployed: <https://feltcoop.github.io/felt-template>
 
@@ -60,12 +60,12 @@ gro deploy
 [Svelte](https://github.com/sveltejs/svelte) ∙
 [SvelteKit](https://github.com/sveltejs/kit) ∙
 [Vite](https://github.com/vitejs/vite) ∙
-[Gro](https://github.com/feltcoop/gro) ∙
-[Felt](https://github.com/feltcoop/felt) ∙
 [Rollup](https://github.com/rollup/rollup) ∙
 [TypeScript](https://github.com/microsoft/TypeScript) ∙
 [esbuild](https://github.com/evanw/esbuild) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
+[Felt](https://github.com/feltcoop/felt) ∙
+[Gro](https://github.com/feltcoop/gro) ∙
 [@lukeed\/\*](https://github.com/lukeed)
 & [more](package.json)
 
