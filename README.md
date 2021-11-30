@@ -31,7 +31,8 @@ To make it your own, change `felt-template` to your project name in the followin
 
 Then run `npm i` to update `package-lock.json`.
 
-Optionally add a license file and `package.json` value, like `"license": "MIT"`.
+Optionally add a [license file](https://choosealicense.com/)
+and [`package.json` value](https://spdx.org/licenses/), like `"license": "MIT"`.
 
 See [SvelteKit](https://github.com/sveltejs/kit)
 and [Vite](https://github.com/vitejs/vite) for more.
