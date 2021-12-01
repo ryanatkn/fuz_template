@@ -47,8 +47,8 @@ gro build
 
 ## deploy
 
-[Deploy the static frontend](https://github.com/feltcoop/gro/blob/main/src/docs/deploy.md)
-to the `deploy` branch, e.g. for GitHub Pages:
+[Deploy](https://github.com/feltcoop/gro/blob/main/src/docs/deploy.md)
+(build, commit, and push) to the `deploy` branch, e.g. for GitHub Pages:
 
 ```bash
 npm run deploy
