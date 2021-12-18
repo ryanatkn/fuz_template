@@ -13,16 +13,16 @@
     "deploy": "gro deploy"
   },
   "devDependencies": {
-    "@feltcoop/felt": "^0.14.1",
-    "@feltcoop/gro": "^0.45.1",
-    "@sveltejs/adapter-static": "^1.0.0-next.21",
-    "@sveltejs/kit": "^1.0.0-next.201",
-    "prettier": "^2.4.1",
-    "prettier-plugin-svelte": "^2.4.0",
-    "svelte": "^3.44.2",
+    "@feltcoop/felt": "^0.15.1",
+    "@feltcoop/gro": "^0.47.2",
+    "@sveltejs/adapter-static": "^1.0.0-next.22",
+    "@sveltejs/kit": "^1.0.0-next.202",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.1",
+    "svelte": "^3.44.3",
     "svelte-preprocess-esbuild": "^2.0.0",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.4"
   },
   "prettier": {
     "useTabs": true,
@@ -30,7 +30,6 @@
     "singleQuote": true,
     "trailingComma": "all",
     "bracketSpacing": false,
-    "svelteBracketNewLine": true,
     "overrides": [
       {
         "files": "package.json",
