@@ -16,6 +16,7 @@
 		"noFallthroughCasesInSwitch": true,
 		"importsNotUsedAsValues": "error",
 		"isolatedModules": true,
+		"preserveValueImports": true,
 		"resolveJsonModule": true,
 		"sourceMap": true,
 		"importHelpers": true,
