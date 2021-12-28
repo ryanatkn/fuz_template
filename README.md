@@ -3,7 +3,8 @@
 > a web app template with [SvelteKit](https://github.com/sveltejs/kit),
 > [Felt](https://github.com/feltcoop/felt), and [Gro](https://github.com/feltcoop/gro)
 
-deployed: <https://feltcoop.github.io/felt-template>
+deployed:
+[feltcoop.github.io/felt-template](https://feltcoop.github.io/felt-template)
 
 ## usage
 
@@ -20,7 +21,13 @@ npm run dev
 gro dev # npm i -g @feltcoop/gro
 ```
 
-> learn more about [gro](https://github.com/feltcoop/gro)
+> learn more about [Gro](https://github.com/feltcoop/gro)
+
+The template includes
+[`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
+so it can deploy with no further configuration.
+To learn how to swap it out for another deployment target, see
+[the SvelteKit adapter docs](https://kit.svelte.dev/docs#adapters).
 
 To make it your own, change `felt-template` to your project name in the following files:
 
