@@ -12,7 +12,7 @@ If you're logged into GitHub, click "Use this template" above or clone with
 [`degit`](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit feltcoop/felt-template#main cooltoy
+npx degit feltcoop/felt-template cooltoy
 cd cooltoy
 npm i
 # then
