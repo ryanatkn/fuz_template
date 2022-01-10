@@ -7,7 +7,7 @@
 	let mreows = ['🐱'];
 
 	const mreow = (): void => {
-		mreows = mreows.concat(randomItem(items)!);
+		mreows = [randomItem(items)!].concat(mreows);
 	};
 </script>
 
