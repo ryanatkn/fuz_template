@@ -19,5 +19,6 @@
 <style>
 	.mreows {
 		font-size: var(--icon_size_xl);
+		word-break: break-all;
 	}
 </style>
