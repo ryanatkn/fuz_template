@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Message from '@feltcoop/felt/ui/Message.svelte';
 
-	import Mreows from '$lib/ui/Mreows.svelte';
+	import Mreows from '$lib/Mreows.svelte';
 </script>
 
 <main class="markup">
