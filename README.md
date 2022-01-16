@@ -69,11 +69,11 @@ gro deploy
 [SvelteKit](https://github.com/sveltejs/kit) ∙
 [Vite](https://github.com/vitejs/vite) ∙
 [esbuild](https://github.com/evanw/esbuild) ∙
+[uvu](https://github.com/lukeed/uvu) ∙
 [TypeScript](https://github.com/microsoft/TypeScript) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
 [Felt](https://github.com/feltcoop/felt) ∙
-[Gro](https://github.com/feltcoop/gro) ∙
-[@lukeed\/\*](https://github.com/lukeed)
+[Gro](https://github.com/feltcoop/gro)
 & [more](package.json)
 
 ## [🐦](https://wikipedia.org/wiki/Free_and_open-source_software)
