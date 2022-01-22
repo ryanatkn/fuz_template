@@ -4,8 +4,8 @@
 	import Mreows from '$lib/Mreows.svelte';
 </script>
 
-<main class="markup">
-	<section>
+<main class="markup column">
+	<section class="column-sm">
 		<h1>felt-template</h1>
 		<Message>hello and welcome</Message>
 	</section>
@@ -14,19 +14,12 @@
 
 <style>
 	main {
-		/* TODO should these be on `.column` ? */
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		margin: 0 auto;
-		/* TODO should `.column` have no min width? doesn't layout well for mobile! */
-		max-width: var(--column_width);
 	}
 	h1 {
 		text-align: center;
-	}
-	section {
-		/* TODO should `.column-min` have no min width? */
-		max-width: var(--column_width_min);
 	}
 </style>
