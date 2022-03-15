@@ -71,6 +71,7 @@ gro deploy
 [esbuild](https://github.com/evanw/esbuild) ∙
 [uvu](https://github.com/lukeed/uvu) ∙
 [TypeScript](https://github.com/microsoft/TypeScript) ∙
+[ESLint](https://github.com/eslint/eslint) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
 [Felt](https://github.com/feltcoop/felt) ∙
 [Gro](https://github.com/feltcoop/gro)
