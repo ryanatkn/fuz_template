@@ -16,9 +16,9 @@
   "devDependencies": {
     "@feltcoop/eslint-config": "^0.1.3",
     "@feltcoop/felt": "^0.22.1",
-    "@feltcoop/gro": "^0.52.3",
-    "@sveltejs/adapter-static": "^1.0.0-next.22",
-    "@sveltejs/kit": "^1.0.0-next.203",
+    "@feltcoop/gro": "^0.53.0",
+    "@sveltejs/adapter-static": "^1.0.0-next.29",
+    "@sveltejs/kit": "^1.0.0-next.297",
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
     "eslint": "^8.11.0",
@@ -33,7 +33,10 @@
   },
   "eslintConfig": {
     "root": true,
-    "extends": "@feltcoop"
+    "extends": "@feltcoop",
+    "ignorePatterns": [
+      "svelte.config.js"
+    ]
   },
   "prettier": {
     "useTabs": true,
