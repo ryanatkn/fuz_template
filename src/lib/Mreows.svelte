@@ -1,8 +1,30 @@
 <script lang="ts">
-	import {icons} from '@feltcoop/felt';
+	import {unwrap} from '@feltcoop/felt';
 	import {randomItem} from '@feltcoop/felt/util/random.js';
 
-	const items: string[] = Object.values(icons);
+	const items = unwrap({
+		ok: true,
+		value: [
+			'🐵',
+			'🐶',
+			'🐺',
+			'🦊',
+			'🐱',
+			'🦁',
+			'🐯',
+			'🐴',
+			'🦄',
+			'🦓',
+			'🐮',
+			'🐭',
+			'🐹',
+			'🐰',
+			'🐻',
+			'🐼',
+			'🐸',
+			'🐲',
+		],
+	});
 
 	let mreows = ['🐱'];
 
