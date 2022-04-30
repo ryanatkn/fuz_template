@@ -7,7 +7,12 @@
 <main class="markup column">
 	<section class="column-sm">
 		<h1>felt-template</h1>
-		<Message>hello and welcome</Message>
+		<Message
+			><span
+				>hello, welcome to <a href="https://github.com/feltcoop/felt-template">felt-template</a
+				></span
+			></Message
+		>
 	</section>
 	<Mreows />
 </main>
