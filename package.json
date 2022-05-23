@@ -14,9 +14,9 @@
     "deploy": "gro deploy"
   },
   "devDependencies": {
-    "@feltcoop/eslint-config": "^0.1.5",
-    "@feltcoop/felt": "^0.28.1",
-    "@feltcoop/gro": "^0.55.1",
+    "@feltcoop/eslint-config": "^0.1.6",
+    "@feltcoop/felt": "^0.30.1",
+    "@feltcoop/gro": "^0.55.2",
     "@sveltejs/adapter-static": "^1.0.0-next.31",
     "@sveltejs/kit": "^1.0.0-next.340",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
@@ -26,7 +26,7 @@
     "prettier": "^2.6.2",
     "prettier-plugin-svelte": "^2.7.0",
     "svelte": "^3.48.0",
-    "svelte-check": "^2.7.0",
+    "svelte-check": "^2.7.1",
     "svelte-preprocess-esbuild": "^2.0.0",
     "tslib": "^2.4.0",
     "typescript": "^4.6.4"
