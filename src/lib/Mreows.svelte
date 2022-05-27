@@ -6,44 +6,45 @@
 	const items = unwrap({
 		ok: true,
 		value: [
-			'🐵',
-			'🐶',
-			'🐺',
-			'🦊',
-			'🐱',
-			'🦁',
-			'🐯',
-			'🐴',
-			'🦄',
-			'🦓',
-			'🐮',
-			'🐭',
-			'🐹',
-			'🐰',
-			'🐻',
-			'🐼',
-			'🐸',
-			'🐲',
+			{icon: '🐵'},
+			{icon: '🐶'},
+			{icon: '🐺'},
+			{icon: '🦊'},
+			{icon: '🐱'},
+			{icon: '🦁'},
+			{icon: '🐯'},
+			{icon: '🐴'},
+			{icon: '🦄'},
+			{icon: '🦓'},
+			{icon: '🐮'},
+			{icon: '🐭'},
+			{icon: '🐹'},
+			{icon: '🐰'},
+			{icon: '🐻'},
+			{icon: '🐼'},
+			{icon: '🐸'},
+			{icon: '🐲'},
 		],
 	});
 
-	let mreows = ['🐱'];
+	let mreows = [items[4]];
 
 	const mreow = (): void => {
-		mreows = [randomItem(items)!].concat(mreows);
+		mreows = [{...randomItem(items)!}].concat(mreows);
 	};
 </script>
 
 <button on:click={mreow}> mreow </button>
 <div class="mreows">
-	{#each mreows as mreow}
-		<div in:scale>{mreow}</div>
+	{#each mreows as mreow (mreow)}
+		<div in:scale>{mreow.icon}</div>
 	{/each}
 </div>
 
 <style>
 	.mreows {
+		display: flex;
+		flex-wrap: wrap;
 		font-size: var(--icon_size_xl);
-		word-break: break-all;
 	}
 </style>
