@@ -21,7 +21,8 @@ npm run dev
 gro dev # npm i -g @feltcoop/gro
 ```
 
-> learn more about [Gro](https://github.com/feltcoop/gro)
+> learn more about [SvelteKit](https://github.com/sveltejs/kit),
+> [Vite](https://github.com/vitejs/vite), and [Gro](https://github.com/feltcoop/gro)
 
 The template includes
 [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
@@ -43,8 +44,9 @@ Then run `npm i` to update `package-lock.json`.
 Optionally add a [license file](https://choosealicense.com/)
 and [`package.json` value](https://spdx.org/licenses/), like `"license": "MIT"`.
 
-See [SvelteKit](https://github.com/sveltejs/kit)
-and [Vite](https://github.com/vitejs/vite) for more.
+See [SvelteKit](https://github.com/sveltejs/kit),
+[Vite](https://github.com/vitejs/vite),
+and [Gro](https://github.com/feltcoop/gro) for more.
 
 ## build
 
