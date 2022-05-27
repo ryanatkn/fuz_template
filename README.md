@@ -4,7 +4,7 @@
 > [Felt](https://github.com/feltcoop/felt), and [Gro](https://github.com/feltcoop/gro)
 
 deployed:
-[feltcoop.github.io/felt-template](https://feltcoop.github.io/felt-template)
+[template.felt.dev](https://template.felt.dev)
 
 ## usage
 
@@ -29,12 +29,14 @@ so it can deploy with no further configuration.
 To learn how to swap it out for another deployment target, see
 [the SvelteKit adapter docs](https://kit.svelte.dev/docs#adapters).
 
-To make it your own, change `felt-template` to your project name in the following files:
+To make it your own, change `felt-template` and `template.felt.dev`
+to your project name in the following files:
 
 - [`package.json`](package.json)
 - [`svelte.config.js`](svelte.config.js)
 - [`src/routes/__layout.svelte`](src/routes/__layout.svelte)
 - [`src/routes/index.svelte`](src/routes/index.svelte)
+- update or delete [`src/static/CNAME`](src/static/CNAME)
 
 Then run `npm i` to update `package-lock.json`.
 

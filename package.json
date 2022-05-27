@@ -3,6 +3,7 @@
   "description": "a web app template with SvelteKit, Gro, and Felt",
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://template.felt.dev",
   "engines": {
     "node": ">= 16.6"
   },
@@ -14,11 +15,11 @@
     "deploy": "gro deploy"
   },
   "devDependencies": {
-    "@feltcoop/eslint-config": "^0.1.6",
-    "@feltcoop/felt": "^0.30.1",
+    "@feltcoop/eslint-config": "^0.1.7",
+    "@feltcoop/felt": "^0.31.0",
     "@feltcoop/gro": "^0.55.2",
-    "@sveltejs/adapter-static": "^1.0.0-next.31",
-    "@sveltejs/kit": "^1.0.0-next.340",
+    "@sveltejs/adapter-static": "^1.0.0-next.32",
+    "@sveltejs/kit": "^1.0.0-next.345",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
     "eslint": "^8.14.0",

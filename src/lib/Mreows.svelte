@@ -1,5 +1,6 @@
 <script lang="ts">
 	import {unwrap} from '@feltcoop/felt';
+	import {scale} from 'svelte/transition';
 	import {randomItem} from '@feltcoop/felt/util/random.js';
 
 	const items = unwrap({
@@ -35,7 +36,9 @@
 
 <button on:click={mreow}> mreow </button>
 <div class="mreows">
-	{mreows.join('')}
+	{#each mreows as mreow}
+		<div in:scale>{mreow}</div>
+	{/each}
 </div>
 
 <style>
