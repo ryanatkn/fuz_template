@@ -8,6 +8,9 @@ deployed:
 
 ## usage
 
+> [Windows is not yet supported](https://github.com/feltcoop/felt-template/issues/4)
+> (we recommend [WSL](https://docs.microsoft.com/en-us/windows/wsl/about))
+
 If you're logged into GitHub, click "Use this template" above or clone with
 [`degit`](https://github.com/Rich-Harris/degit):
 
