@@ -1,6 +1,6 @@
 # felt-template
 
-> a web app template with [SvelteKit](https://github.com/sveltejs/kit),
+> a static web app and Node library template with [SvelteKit](https://github.com/sveltejs/kit),
 > [Felt](https://github.com/feltcoop/felt), and [Gro](https://github.com/feltcoop/gro)
 
 deployed:
