@@ -53,23 +53,23 @@ See [SvelteKit](https://github.com/sveltejs/kit),
 [Vite](https://github.com/vitejs/vite),
 and [Gro](https://github.com/feltcoop/gro) for more.
 
-## test
-
-For more see [uvu](https://github.com/lukeed/uvu)
-and [src/lib/example.test.ts](src/lib/example.test.ts)
-
-```bash
-gro test
-gro test filepattern1 filepatternB
-gro test -- uvu --forwarded_args 'to uvu'
-```
-
 ## build
 
 ```bash
 npm run build
 # or
 gro build
+```
+
+## test
+
+For more see [uvu](https://github.com/lukeed/uvu)
+and [`src/lib/example.test.ts`](src/lib/example.test.ts)
+
+```bash
+gro test
+gro test filepattern1 filepatternB
+gro test -- uvu --forwarded_args 'to uvu'
 ```
 
 ## deploy
