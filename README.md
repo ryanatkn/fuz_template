@@ -51,7 +51,8 @@ and [`package.json` value](https://spdx.org/licenses/), like `"license": "MIT"`.
 
 See [SvelteKit](https://github.com/sveltejs/kit),
 [Vite](https://github.com/vitejs/vite),
-and [Gro](https://github.com/feltcoop/gro) for more.
+[Gro](https://github.com/feltcoop/gro),
+and [Felt](https://github.com/feltcoop/felt) for more.
 
 ## build
 
