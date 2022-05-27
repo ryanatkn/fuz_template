@@ -55,7 +55,8 @@ and [Gro](https://github.com/feltcoop/gro) for more.
 
 ## test
 
-For more see [uvu](https://github.com/lukeed/uvu).
+For more see [uvu](https://github.com/lukeed/uvu)
+and [src/lib/example.test.ts](src/lib/example.test.ts)
 
 ```bash
 gro test
