@@ -45,6 +45,8 @@
 	.mreows {
 		display: flex;
 		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
 		font-size: var(--icon_size_xl);
 	}
 </style>
