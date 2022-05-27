@@ -25,7 +25,8 @@ gro dev # npm i -g @feltcoop/gro
 ```
 
 > learn more about [SvelteKit](https://github.com/sveltejs/kit),
-> [Vite](https://github.com/vitejs/vite), and [Gro](https://github.com/feltcoop/gro)
+> [Vite](https://github.com/vitejs/vite), [Gro](https://github.com/feltcoop/gro),
+> and [Felt](https://github.com/feltcoop/felt)
 
 The template includes
 [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
@@ -51,6 +52,16 @@ and [`package.json` value](https://spdx.org/licenses/), like `"license": "MIT"`.
 See [SvelteKit](https://github.com/sveltejs/kit),
 [Vite](https://github.com/vitejs/vite),
 and [Gro](https://github.com/feltcoop/gro) for more.
+
+## test
+
+For more see [uvu](https://github.com/lukeed/uvu).
+
+```bash
+gro test
+gro test filepattern1 filepatternB
+gro test -- uvu --forwarded_args 'to uvu'
+```
 
 ## build
 
