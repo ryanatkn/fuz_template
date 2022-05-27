@@ -26,7 +26,8 @@ gro dev # npm i -g @feltcoop/gro
 
 The template includes
 [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
-so it can deploy with no further configuration.
+so it can [deploy](https://github.com/feltcoop/gro/blob/main/src/docs/deploy.md)
+with no further configuration.
 To learn how to swap it out for another deployment target, see
 [the SvelteKit adapter docs](https://kit.svelte.dev/docs#adapters).
 
