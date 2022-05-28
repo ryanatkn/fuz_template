@@ -15,7 +15,7 @@ deployed:
   - testing with [uvu](https://github.com/lukeed/uvu)
   - formatting with [Prettier](https://github.com/prettier/prettier)
   - linting with [ESLint](https://github.com/eslint/eslint)
-    - config with [`@feltcoop/eslint-config`](https://github.com/feltcoop/eslint-config)
+    and [`@feltcoop/eslint-config`](https://github.com/feltcoop/eslint-config)
   - also has tasks, codegen, and other things, see [the docs](https://github.com/feltcoop/gro)
 - [Felt](https://github.com/feltcoop/felt):
   - a [package](https://github.com/feltcoop/felt/blob/main/src/gro.config.ts)
