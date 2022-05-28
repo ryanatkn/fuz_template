@@ -27,7 +27,7 @@
 		],
 	});
 
-	let mreows = [items[4]];
+	export let mreows = [items[4]];
 
 	const mreow = (): void => {
 		mreows = [{...randomItem(items)!}].concat(mreows);

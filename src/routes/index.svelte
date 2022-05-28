@@ -2,19 +2,25 @@
 	import Message from '@feltcoop/felt/ui/Message.svelte';
 
 	import Mreows from '$lib/Mreows.svelte';
+
+	let mreows: Array<{icon: string}> | undefined;
 </script>
 
 <main class="markup column">
-	<section class="column-sm">
-		<h1>felt-template</h1>
+	<section>
+		<header class="centered-hz">
+			<h1>felt<small><a href="https://github.com/feltcoop">💚</a></small>template</h1>
+		</header>
 		<Message
+			><span slot="icon"
+				>{#if mreows}{mreows[0].icon}{:else}✨{/if}</span
 			><span
 				>hello, welcome to <a href="https://github.com/feltcoop/felt-template">felt-template</a
 				></span
 			></Message
 		>
 	</section>
-	<Mreows />
+	<Mreows bind:mreows />
 </main>
 
 <style>
