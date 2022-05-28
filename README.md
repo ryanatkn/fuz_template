@@ -9,6 +9,9 @@ deployed:
 ## contents
 
 - [Gro](https://github.com/feltcoop/gro):
+  - extends [SvelteKit](https://github.com/sveltejs/kit)
+  - integrated [TypeScript](https://github.com/microsoft/TypeScript)
+    with [Svelte](https://github.com/sveltejs/svelte)
   - testing with [uvu](https://github.com/lukeed/uvu)
   - formatting with [Prettier](https://github.com/prettier/prettier)
   - linting with [ESLint](https://github.com/eslint/eslint)
