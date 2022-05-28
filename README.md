@@ -6,6 +6,21 @@
 deployed:
 [template.felt.dev](https://template.felt.dev)
 
+## contents
+
+- [Gro](https://github.com/feltcoop/gro):
+  - testing with [uvu](https://github.com/lukeed/uvu)
+  - formatting with [Prettier](https://github.com/prettier/prettier)
+  - linting with [ESLint](https://github.com/eslint/eslint)
+    - config with [`@feltcoop/eslint-config`](https://github.com/feltcoop/eslint-config)
+  - also has tasks, codegen, and other things, see [the docs](https://github.com/feltcoop/gro)
+- [Felt](https://github.com/feltcoop/felt):
+  - a [package](https://github.com/feltcoop/felt/blob/main/src/gro.config.ts)
+    with Svelte [UI components](https://www.felt.dev/sketch/library),
+    [styles](https://github.com/feltcoop/felt/blob/main/src/lib/ui/style.css),
+    [utilities](https://github.com/feltcoop/felt/tree/main/src/lib/util), etc
+  - docs and more at [felt.dev](https://www.felt.dev/)
+
 ## usage
 
 > [Windows is not yet supported](https://github.com/feltcoop/felt-template/issues/4)
