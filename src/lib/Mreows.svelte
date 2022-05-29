@@ -2,6 +2,8 @@
 	import {unwrap} from '@feltcoop/felt';
 	import {randomItem} from '@feltcoop/felt/util/random.js';
 
+	import Positioned from '$lib/Positioned.svelte';
+
 	interface Mreow {
 		icon: string;
 	}
@@ -43,6 +45,7 @@
 		index: number;
 		x: number;
 		y: number;
+		scale: number;
 		row: number;
 		column: number;
 		mreow: Mreow;
@@ -65,6 +68,7 @@
 				y: row * ROW_HEIGHT,
 				row,
 				column,
+				scale: 1,
 				mreow,
 				fontSize: columnWidth * 0.85,
 			};
@@ -76,24 +80,14 @@
 
 <button on:click={mreow}> mreow </button>
 <div class="mreows" bind:clientWidth>
-	{#each layout as item (item.mreow)}<div
-			class="mreow"
-			style:transform="translate3d({item.x}px, {item.y}px, 0px)"
-			style:font-size="{item.fontSize}px"
-		>
-			{item.mreow.icon}
-		</div>{/each}
+	{#each layout as item (item.mreow)}<Positioned x={item.x} y={item.y} scale={item.scale}
+			><span style:font-size="{item.fontSize}px">{item.mreow.icon}</span></Positioned
+		>{/each}
 </div>
 
 <style>
 	.mreows {
 		position: relative;
 		width: 100%;
-	}
-	.mreow {
-		position: absolute;
-		left: 0;
-		top: 0;
-		transition: transform 1s ease-out;
 	}
 </style>
