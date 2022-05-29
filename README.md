@@ -26,6 +26,7 @@ deployed:
     [styles](https://github.com/feltcoop/felt/blob/main/src/lib/ui/style.css),
     [utilities](https://github.com/feltcoop/felt/tree/main/src/lib/util), etc
   - docs and more at [felt.dev](https://www.felt.dev/)
+  - to remove it, `npm uninstall @feltcoop/felt` and delete the imports
 
 ## usage
 
