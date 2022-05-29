@@ -16,7 +16,10 @@ deployed:
   - formatting with [Prettier](https://github.com/prettier/prettier)
   - linting with [ESLint](https://github.com/eslint/eslint)
     and [`@feltcoop/eslint-config`](https://github.com/feltcoop/eslint-config)
-  - also has tasks, codegen, and other things, see [the docs](https://github.com/feltcoop/gro)
+  - also has [a task system](https://github.com/feltcoop/gro/blob/main/src/docs/task.md)
+    with a bunch of [builtins](https://github.com/feltcoop/gro/blob/main/src/docs/tasks.md),
+    [codegen](https://github.com/feltcoop/gro/blob/main/src/docs/gen.md),
+    and [other things](https://github.com/feltcoop/gro/tree/main/src/docs)
 - [Felt](https://github.com/feltcoop/felt):
   - a [package](https://github.com/feltcoop/felt/blob/main/src/gro.config.ts)
     with Svelte [UI components](https://www.felt.dev/sketch/library),
