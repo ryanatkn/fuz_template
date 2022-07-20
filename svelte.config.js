@@ -14,13 +14,5 @@ export default {
 		// paths: dev ? undefined : {base: '/felt-template'}, // for GitHub pages -- delete this line for top-level domains
 		files: {assets: 'src/static'},
 		prerender: {default: true},
-		vite: {
-			ssr: {
-				noExternal: ['@feltcoop/felt'],
-			},
-			optimizeDeps: {
-				exclude: ['@feltcoop/felt'],
-			},
-		},
 	},
 };
