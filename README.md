@@ -9,7 +9,8 @@ deployed:
 ## contents
 
 - [Gro](https://github.com/feltcoop/gro):
-  - extends [SvelteKit](https://github.com/sveltejs/kit)
+  - extends [SvelteKit](https://github.com/sveltejs/kit) and
+    [Vite](https://github.com/vitejs/vite)
   - integrated [TypeScript](https://github.com/microsoft/TypeScript)
     with [Svelte](https://github.com/sveltejs/svelte) and
     [svelte-check](https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check)
