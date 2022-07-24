@@ -80,7 +80,10 @@
 
 <button on:click={mreow}> mreow </button>
 <div class="mreows" bind:clientWidth>
-	{#each layout as item (item.mreow)}<Positioned x={item.x} y={item.y} scale={item.scale}
+	{#each layout as item, i (item.mreow)}<Positioned
+			x={item.x}
+			y={item.y}
+			scale={item.scale + Math.cos(i) / 3.5}
 			><span style:font-size="{item.fontSize}px">{item.mreow.icon}</span></Positioned
 		>{/each}
 </div>
