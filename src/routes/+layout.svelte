@@ -3,6 +3,8 @@
 	import {base} from '$app/paths';
 
 	import '$lib/style.css';
+
+	export const prerender = true;
 </script>
 
 <svelte:head>
