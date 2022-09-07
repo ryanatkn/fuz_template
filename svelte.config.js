@@ -6,9 +6,7 @@ import adapter from '@sveltejs/adapter-static';
 /** @type {import('@sveltejs/kit').Config} */
 export default {
 	preprocess: typescript(),
-	compilerOptions: {
-		immutable: true,
-	},
+	compilerOptions: {immutable: true},
 	kit: {
 		adapter: adapter(),
 		// paths: dev ? undefined : {base: '/felt-template'}, // for GitHub pages -- delete this line for top-level domains
