@@ -1,7 +1,7 @@
 import {typescript} from 'svelte-preprocess-esbuild';
 import adapter from '@sveltejs/adapter-static';
 
-// const dev = process.env.NODE_ENV !== 'production'; // see below
+// const dev = process.argv.includes('dev'); // see below
 
 /** @type {import('@sveltejs/kit').Config} */
 export default {
