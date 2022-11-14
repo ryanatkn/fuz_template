@@ -88,8 +88,9 @@ gro build
 
 ## test
 
-For more see [uvu](https://github.com/lukeed/uvu)
-and [`src/lib/example.test.ts`](src/lib/example.test.ts)
+For more see [`uvu`](https://github.com/lukeed/uvu),
+[`src/lib/example.test.ts`](src/lib/example.test.ts),
+and [Gro's test docs](https://github.com/feltcoop/gro/blob/main/src/docs/test.md).
 
 ```bash
 gro test
