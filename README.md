@@ -120,7 +120,7 @@ gro deploy
 [ESLint](https://github.com/eslint/eslint) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
 [Felt](https://github.com/feltcoop/felt) ∙
-[`@feltcoop/util`](https://github.com/feltcoop/util) ∙
+[@feltcoop/util](https://github.com/feltcoop/util) ∙
 [Gro](https://github.com/feltcoop/gro)
 & [more](package.json)
 
