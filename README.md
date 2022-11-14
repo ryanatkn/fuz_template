@@ -73,11 +73,6 @@ Then run `npm i` to update `package-lock.json`.
 Optionally add a [license file](https://choosealicense.com/)
 and [`package.json` value](https://spdx.org/licenses/), like `"license": "MIT"`.
 
-See [SvelteKit](https://github.com/sveltejs/kit),
-[Vite](https://github.com/vitejs/vite),
-[Gro](https://github.com/feltcoop/gro),
-and [Felt](https://github.com/feltcoop/felt) for more.
-
 ## build
 
 ```bash
@@ -85,6 +80,11 @@ npm run build
 # or
 gro build
 ```
+
+See [SvelteKit](https://github.com/sveltejs/kit),
+[Vite](https://github.com/vitejs/vite),
+[Gro](https://github.com/feltcoop/gro),
+and [Felt](https://github.com/feltcoop/felt) for more.
 
 ## test
 
@@ -120,6 +120,7 @@ gro deploy
 [ESLint](https://github.com/eslint/eslint) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
 [Felt](https://github.com/feltcoop/felt) ∙
+[`@feltcoop/util`](https://github.com/feltcoop/util) ∙
 [Gro](https://github.com/feltcoop/gro)
 & [more](package.json)
 
