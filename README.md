@@ -81,22 +81,19 @@ npm run build
 gro build
 ```
 
-See [SvelteKit](https://github.com/sveltejs/kit),
-[Vite](https://github.com/vitejs/vite),
-[Gro](https://github.com/feltcoop/gro),
-and [Felt](https://github.com/feltcoop/felt) for more.
+See [Gro's build docs](https://github.com/feltcoop/gro/blob/main/src/docs/build.md) for more.
 
 ## test
-
-For more see [`uvu`](https://github.com/lukeed/uvu),
-[`src/lib/example.test.ts`](src/lib/example.test.ts),
-and [Gro's test docs](https://github.com/feltcoop/gro/blob/main/src/docs/test.md).
 
 ```bash
 gro test
 gro test filepattern1 filepatternB
 gro test -- uvu --forwarded_args 'to uvu'
 ```
+
+See [uvu](https://github.com/lukeed/uvu),
+[`src/lib/example.test.ts`](src/lib/example.test.ts),
+and [Gro's test docs](https://github.com/feltcoop/gro/blob/main/src/docs/test.md) for more.
 
 ## deploy
 
