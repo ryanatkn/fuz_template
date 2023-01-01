@@ -2,7 +2,7 @@
 	import '@feltcoop/felt/style.css';
 	import {base} from '$app/paths';
 
-	import '$lib/style.css';
+	import './style.css';
 </script>
 
 <svelte:head>
