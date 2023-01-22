@@ -8,6 +8,8 @@ deployed:
 
 ## contents
 
+- [SvelteKit](https://github.com/sveltejs/kit) with [Svelte](https://github.com/sveltejs/svelte) and
+  [Vite](https://github.com/vitejs/vite)
 - [Gro](https://github.com/feltcoop/gro):
   - extends [SvelteKit](https://github.com/sveltejs/kit) and
     [Vite](https://github.com/vitejs/vite)
