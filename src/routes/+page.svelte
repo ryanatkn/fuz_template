@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Message from '@feltcoop/felt/Message.svelte';
+	import Message from '@feltjs/felt/Message.svelte';
 
 	import Mreows from '$lib/Mreows.svelte';
 
@@ -15,8 +15,7 @@
 			><span slot="icon"
 				>{#if mreows}{mreows[0].icon}{:else}✨{/if}</span
 			><span
-				>hello, welcome to <a href="https://github.com/feltcoop/felt-template">felt-template</a
-				></span
+				>hello, welcome to <a href="https://github.com/feltjs/felt-template">felt-template</a></span
 			></Message
 		>
 	</section>
