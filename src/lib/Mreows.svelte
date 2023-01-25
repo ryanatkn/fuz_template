@@ -1,6 +1,6 @@
 <script lang="ts">
-	import {unwrap} from '@feltcoop/util';
-	import {randomItem} from '@feltcoop/util/random.js';
+	import {unwrap} from '@feltjs/util';
+	import {randomItem} from '@feltjs/util/random.js';
 
 	import Positioned from '$lib/Positioned.svelte';
 
