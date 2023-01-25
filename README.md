@@ -1,7 +1,8 @@
 # felt-template
 
 > a static web app and Node library template with [SvelteKit](https://github.com/sveltejs/kit),
-> [Felt](https://github.com/feltjs/felt-ui), and [Gro](https://github.com/feltjs/gro)
+> [`@feltjs/felt-ui`](https://github.com/feltjs/felt-ui),
+> and [`@feltjs/gro`](https://github.com/feltjs/gro)
 
 deployed:
 [template.felt.dev](https://template.felt.dev)
