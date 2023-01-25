@@ -2,7 +2,7 @@
 
 > a static web app and Node library template with [SvelteKit](https://github.com/sveltejs/kit),
 > [`@feltjs/felt-ui`](https://github.com/feltjs/felt-ui),
-> and [`@feltjs/gro`](https://github.com/feltjs/gro)
+> and [Gro](https://github.com/feltjs/gro)
 
 deployed:
 [template.felt.dev](https://template.felt.dev)
@@ -25,7 +25,7 @@ deployed:
     with a bunch of [builtins](https://github.com/feltjs/gro/blob/main/src/docs/tasks.md),
     [codegen](https://github.com/feltjs/gro/blob/main/src/docs/gen.md),
     and [other things](https://github.com/feltjs/gro/tree/main/src/docs)
-- [Felt](https://github.com/feltjs/felt-ui):
+- [`@feltjs/felt-ui`](https://github.com/feltjs/felt-ui):
   - a [package](https://github.com/feltjs/felt-ui/blob/main/src/gro.config.ts)
     with Svelte [UI components](https://www.felt.dev/sketch/library) and
     [styles](https://github.com/feltjs/felt-ui/blob/main/src/lib/style.css)
