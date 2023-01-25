@@ -9,7 +9,7 @@
 <main class="markup column">
 	<section>
 		<header class="centered-hz">
-			<h1>felt<small><a href="https://github.com/feltcoop">💚</a></small>template</h1>
+			<h1>felt<small><a href="https://github.com/feltjs">💚</a></small>template</h1>
 		</header>
 		<Message
 			><span slot="icon"
