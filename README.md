@@ -30,7 +30,7 @@ deployed:
     [styles](https://github.com/feltjs/felt-ui/blob/main/src/lib/style.css)
   - optional [utilities library](https://github.com/feltjs/util)
   - docs and more at [felt.dev](https://www.felt.dev/)
-  - to remove it, `npm uninstall @feltjs/felt` and delete the imports
+  - to remove it, `npm uninstall @feltjs/felt-ui` and delete the imports
 
 ## usage
 
