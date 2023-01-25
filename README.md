@@ -25,9 +25,9 @@ deployed:
     [codegen](https://github.com/feltjs/gro/blob/main/src/docs/gen.md),
     and [other things](https://github.com/feltjs/gro/tree/main/src/docs)
 - [Felt](https://github.com/feltjs/felt):
-  - a [package](https://github.com/feltjs/felt/blob/main/src/gro.config.ts)
+  - a [package](https://github.com/feltjs/felt-ui/blob/main/src/gro.config.ts)
     with Svelte [UI components](https://www.felt.dev/sketch/library) and
-    [styles](https://github.com/feltjs/felt/blob/main/src/lib/style.css)
+    [styles](https://github.com/feltjs/felt-ui/blob/main/src/lib/style.css)
   - optional [utilities library](https://github.com/feltjs/util)
   - docs and more at [felt.dev](https://www.felt.dev/)
   - to remove it, `npm uninstall @feltjs/felt` and delete the imports

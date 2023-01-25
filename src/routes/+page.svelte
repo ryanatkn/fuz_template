@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Message from '@feltjs/felt/Message.svelte';
+	import Message from '@feltjs/felt-ui/Message.svelte';
 
 	import Mreows from '$lib/Mreows.svelte';
 
