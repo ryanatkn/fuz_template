@@ -53,7 +53,7 @@ gro dev # npm i -g @feltjs/gro
 
 > learn more about [SvelteKit](https://github.com/sveltejs/kit),
 > [Vite](https://github.com/vitejs/vite), [Gro](https://github.com/feltjs/gro),
-> and [Felt](https://github.com/feltjs/felt-ui)
+> and [felt-ui](https://github.com/feltjs/felt-ui)
 
 The template includes
 [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
@@ -119,7 +119,7 @@ gro deploy
 [TypeScript](https://github.com/microsoft/TypeScript) ∙
 [ESLint](https://github.com/eslint/eslint) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
-[Felt](https://github.com/feltjs/felt-ui) ∙
+[felt-ui](https://github.com/feltjs/felt-ui) ∙
 [@feltjs/util](https://github.com/feltjs/util) ∙
 [Gro](https://github.com/feltjs/gro)
 & [more](package.json)
