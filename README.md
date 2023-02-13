@@ -67,8 +67,8 @@ to your project name in the following files:
 
 - [`package.json`](package.json)
 - [`svelte.config.js`](svelte.config.js)
-- [`src/routes/__layout.svelte`](src/routes/__layout.svelte)
-- [`src/routes/index.svelte`](src/routes/index.svelte)
+- [`src/routes/+layout.svelte`](src/routes/+layout.svelte)
+- [`src/routes/+page.svelte`](src/routes/+page.svelte)
 - update or delete [`src/static/CNAME`](src/static/CNAME)
 
 Then run `npm i` to update `package-lock.json`.
