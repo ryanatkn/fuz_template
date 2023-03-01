@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '@feltjs/felt-ui/style.css';
-
 	import '$routes/style.css';
 </script>
 
