@@ -3,7 +3,7 @@
   "description": "a static web app and Node library template with SvelteKit, Gro, and Felt",
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://template.felt.dev",
+  "homepage": "https://template.felt.dev/",
   "engines": {
     "node": ">=18.6"
   },

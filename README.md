@@ -6,7 +6,7 @@
 > and [Gro](https://github.com/feltjs/gro)
 
 deployed:
-[template.felt.dev](https://template.felt.dev)
+[template.felt.dev](https://template.felt.dev/)
 
 ## contents
 
