@@ -1,5 +1,6 @@
 {
   "name": "felt-template",
+  "private": true,
   "description": "a static web app and Node library template with SvelteKit, Gro, and Felt",
   "version": "0.0.1",
   "type": "module",
