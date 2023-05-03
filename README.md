@@ -36,6 +36,12 @@ deployed:
 
 ## usage
 
+This project uses [SvelteKit](https://kit.svelte.dev/) with the static adapter
+and [Vite](https://vitejs.dev/),
+so the normal commands like `vite dev` work as expected.
+It also uses [`gro`](https://github.com/feltjs/gro)
+for additional things like deploying - see below for more.
+
 > [Windows is not yet supported](https://github.com/feltjs/felt-template/issues/4)
 > (we recommend [WSL](https://docs.microsoft.com/en-us/windows/wsl/about))
 
