@@ -53,9 +53,11 @@ npx degit feltjs/felt-template cooltoy
 cd cooltoy
 npm i
 # then
-npm run dev
+vite dev
 # or
 gro dev # npm i -g @feltjs/gro
+# or
+npm run dev
 ```
 
 > learn more about [SvelteKit](https://github.com/sveltejs/kit),
