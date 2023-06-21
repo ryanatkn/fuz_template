@@ -7,7 +7,6 @@
 	export let theme: Writable<Theme>;
 	export let themes: Theme[] = defaultThemes;
 
-	// TODO BLOCK color scheme, theme separately? dialog?
 	// TODO BLOCK show selected
 </script>
 
@@ -18,6 +17,6 @@
 		}}
 	>
 		<svelte:fragment slot="icon">⚘</svelte:fragment>
-		{t.name}
+		select theme: {t.name}
 	</ContextmenuEntry>
 {/each}

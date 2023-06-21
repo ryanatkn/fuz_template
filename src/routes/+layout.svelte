@@ -4,7 +4,7 @@
 	import '$routes/style.css';
 
 	import {writable} from 'svelte/store';
-	import {loadTheme} from '@feltjs/felt-ui/theme.js';
+	import {loadTheme, type ColorScheme, loadColorScheme} from '@feltjs/felt-ui/theme.js';
 	import {DEFAULT_THEME, defaultThemes} from '@feltjs/felt-ui/themes.js';
 	import Themed from '@feltjs/felt-ui/Themed.svelte';
 	import Contextmenu from '@feltjs/felt-ui/Contextmenu.svelte';
@@ -13,6 +13,7 @@
 	import ContextmenuTextEntry from '@feltjs/felt-ui/ContextmenuTextEntry.svelte';
 
 	import ThemeContextmenu from '$lib/ThemeContextmenu.svelte';
+	import ColorSchemeContextmenu from '$lib/ColorSchemeContextmenu.svelte';
 
 	// Setup the UI theme.
 	const loadedTheme = loadTheme();
@@ -20,6 +21,8 @@
 	const loadedThemeDefaultRef =
 		loadedTheme && defaultThemes.find((t) => t.name === loadedTheme.name);
 	const theme = writable(loadedThemeDefaultRef || loadedTheme || DEFAULT_THEME);
+
+	const colorScheme = writable<ColorScheme | null>(loadColorScheme());
 
 	const contextmenu = createContextmenu({
 		linkComponent: ContextmenuLinkEntry,
@@ -32,7 +35,12 @@
 </svelte:head>
 
 <Themed {theme}>
-	<div use:contextmenu.action={toContextmenuParams(ThemeContextmenu, {theme})}>
+	<div
+		use:contextmenu.action={[
+			toContextmenuParams(ThemeContextmenu, {theme}),
+			toContextmenuParams(ColorSchemeContextmenu, {colorScheme}),
+		]}
+	>
 		<slot />
 	</div>
 	<Contextmenu {contextmenu} />
