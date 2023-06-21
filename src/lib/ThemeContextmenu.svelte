@@ -8,6 +8,7 @@
 	export let themes: Theme[] = defaultThemes;
 
 	// TODO BLOCK show selected
+	// TODO BLOCK do we need dialogs? open the about dialog with theme controls?
 </script>
 
 {#each themes as t (t.name)}
