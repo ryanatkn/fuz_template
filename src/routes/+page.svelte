@@ -6,9 +6,9 @@
 	let mreows: Array<{icon: string}> | undefined;
 </script>
 
-<main class="markup column">
+<main class="prose">
 	<section>
-		<header class="centered-hz">
+		<header class="box row">
 			<h1>felt<small><a href="https://github.com/feltjs">💚</a></small>template</h1>
 		</header>
 		<Message
