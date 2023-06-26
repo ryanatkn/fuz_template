@@ -4,7 +4,7 @@
 	import '$routes/style.css';
 
 	import {writable} from 'svelte/store';
-	import {loadTheme, type ColorScheme, loadColorScheme} from '@feltjs/felt-ui/theme.js';
+	import {loadTheme} from '@feltjs/felt-ui/theme.js';
 	import {DEFAULT_THEME, defaultThemes} from '@feltjs/felt-ui/themes.js';
 	import Themed from '@feltjs/felt-ui/Themed.svelte';
 	import Dialog from '@feltjs/felt-ui/Dialog.svelte';
@@ -21,8 +21,6 @@
 	const loadedThemeDefaultRef =
 		loadedTheme && defaultThemes.find((t) => t.name === loadedTheme.name);
 	const theme = writable(loadedThemeDefaultRef || loadedTheme || DEFAULT_THEME);
-
-	const colorScheme = writable<ColorScheme | null>(loadColorScheme());
 
 	const contextmenu = createContextmenu({
 		linkComponent: ContextmenuLinkEntry,
