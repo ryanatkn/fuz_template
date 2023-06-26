@@ -7,13 +7,13 @@
 	import {loadTheme, type ColorScheme, loadColorScheme} from '@feltjs/felt-ui/theme.js';
 	import {DEFAULT_THEME, defaultThemes} from '@feltjs/felt-ui/themes.js';
 	import Themed from '@feltjs/felt-ui/Themed.svelte';
+	import Dialog from '@feltjs/felt-ui/Dialog.svelte';
 	import Contextmenu from '@feltjs/felt-ui/Contextmenu.svelte';
-	import {createContextmenu, toContextmenuParams} from '@feltjs/felt-ui/contextmenu.js';
+	import {createContextmenu} from '@feltjs/felt-ui/contextmenu.js';
 	import ContextmenuLinkEntry from '@feltjs/felt-ui/ContextmenuLinkEntry.svelte';
 	import ContextmenuTextEntry from '@feltjs/felt-ui/ContextmenuTextEntry.svelte';
 
-	import ThemeContextmenu from '$lib/ThemeContextmenu.svelte';
-	import ColorSchemeContextmenu from '$lib/ColorSchemeContextmenu.svelte';
+	import Settings from '$lib/Settings.svelte';
 
 	// Setup the UI theme.
 	const loadedTheme = loadTheme();
@@ -28,6 +28,8 @@
 		linkComponent: ContextmenuLinkEntry,
 		textComponent: ContextmenuTextEntry,
 	});
+
+	let showSettings = false;
 </script>
 
 <svelte:head>
@@ -36,12 +38,20 @@
 
 <Themed {theme}>
 	<div
-		use:contextmenu.action={[
-			toContextmenuParams(ThemeContextmenu, {theme}),
-			toContextmenuParams(ColorSchemeContextmenu, {colorScheme}),
-		]}
+		use:contextmenu.action={{
+			content: 'Settings',
+			icon: '?',
+			run: () => {
+				showSettings = true;
+			},
+		}}
 	>
 		<slot />
 	</div>
 	<Contextmenu {contextmenu} />
+	{#if showSettings}
+		<Dialog on:close={() => (showSettings = false)}>
+			<Settings />
+		</Dialog>
+	{/if}
 </Themed>
