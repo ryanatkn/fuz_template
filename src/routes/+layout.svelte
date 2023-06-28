@@ -12,7 +12,7 @@
 
 	import Settings from '$lib/Settings.svelte';
 
-	// TODO remove this boilerplate
+	// TODO remove this boilerplate, should just be `const contextmenu = createContextmenu();`
 	const contextmenu = createContextmenu({
 		linkComponent: ContextmenuLinkEntry,
 		textComponent: ContextmenuTextEntry,
