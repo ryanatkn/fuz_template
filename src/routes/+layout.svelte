@@ -39,7 +39,9 @@
 	<Contextmenu {contextmenu} />
 	{#if showSettings}
 		<Dialog on:close={() => (showSettings = false)}>
-			<Settings />
+			<div class="pane">
+				<Settings />
+			</div>
 		</Dialog>
 	{/if}
 </Themed>
