@@ -24,18 +24,18 @@
 	<title>felt-template</title>
 </svelte:head>
 
+<svelte:body
+	use:contextmenu.action={{
+		content: 'Settings',
+		icon: '?',
+		run: () => {
+			showSettings = true;
+		},
+	}}
+/>
+
 <Themed>
-	<div
-		use:contextmenu.action={{
-			content: 'Settings',
-			icon: '?',
-			run: () => {
-				showSettings = true;
-			},
-		}}
-	>
-		<slot />
-	</div>
+	<slot />
 	<Contextmenu {contextmenu} />
 	{#if showSettings}
 		<Dialog on:close={() => (showSettings = false)}>
