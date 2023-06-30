@@ -2,7 +2,7 @@
 	import {unwrap} from '@feltjs/util';
 	import {randomItem} from '@feltjs/util/random.js';
 
-	import Positioned from '$lib/Positioned.svelte';
+	import Positioned from '$routes/Positioned.svelte';
 
 	interface Mreow {
 		icon: string;

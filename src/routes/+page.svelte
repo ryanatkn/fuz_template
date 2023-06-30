@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Message from '@feltjs/felt-ui/Message.svelte';
 
-	import Mreows from '$lib/Mreows.svelte';
+	import Mreows from '$routes/Mreows.svelte';
 
 	let mreows: Array<{icon: string}> | undefined;
 </script>

@@ -10,7 +10,7 @@
 	import ContextmenuLinkEntry from '@feltjs/felt-ui/ContextmenuLinkEntry.svelte';
 	import ContextmenuTextEntry from '@feltjs/felt-ui/ContextmenuTextEntry.svelte';
 
-	import Settings from '$lib/Settings.svelte';
+	import Settings from '$routes/Settings.svelte';
 
 	// TODO remove this boilerplate, should just be `const contextmenu = createContextmenu();`
 	const contextmenu = createContextmenu({
