@@ -16,10 +16,10 @@
     "deploy": "gro deploy"
   },
   "devDependencies": {
-    "@feltjs/eslint-config": "^0.3.0",
-    "@feltjs/felt-ui": "^0.61.0",
-    "@feltjs/gro": "^0.78.2",
-    "@feltjs/util": "^0.8.1",
+    "@feltjs/eslint-config": "^0.3.1",
+    "@feltjs/felt-ui": "^0.64.0",
+    "@feltjs/gro": "^0.79.0",
+    "@feltjs/util": "^0.9.0",
     "@sveltejs/adapter-static": "^2.0.2",
     "@sveltejs/kit": "^1.22.3",
     "@typescript-eslint/eslint-plugin": "^5.61.0",

@@ -1,5 +1,4 @@
 <script lang="ts">
-	import {unwrap} from '@feltjs/util';
 	import {randomItem} from '@feltjs/util/random.js';
 
 	import Positioned from '$routes/Positioned.svelte';
@@ -8,29 +7,26 @@
 		icon: string;
 	}
 
-	const items: Mreow[] = unwrap({
-		ok: true,
-		value: [
-			{icon: '🐵'},
-			{icon: '🐶'},
-			{icon: '🐺'},
-			{icon: '🦊'},
-			{icon: '🐱'},
-			{icon: '🦁'},
-			{icon: '🐯'},
-			{icon: '🐴'},
-			{icon: '🦄'},
-			{icon: '🦓'},
-			{icon: '🐮'},
-			{icon: '🐭'},
-			{icon: '🐹'},
-			{icon: '🐰'},
-			{icon: '🐻'},
-			{icon: '🐼'},
-			{icon: '🐸'},
-			{icon: '🐲'},
-		],
-	});
+	const items: Mreow[] = [
+		{icon: '🐵'},
+		{icon: '🐶'},
+		{icon: '🐺'},
+		{icon: '🦊'},
+		{icon: '🐱'},
+		{icon: '🦁'},
+		{icon: '🐯'},
+		{icon: '🐴'},
+		{icon: '🦄'},
+		{icon: '🦓'},
+		{icon: '🐮'},
+		{icon: '🐭'},
+		{icon: '🐹'},
+		{icon: '🐰'},
+		{icon: '🐻'},
+		{icon: '🐼'},
+		{icon: '🐸'},
+		{icon: '🐲'},
+	];
 
 	export let mreows = [items[4]];
 
