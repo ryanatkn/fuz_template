@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "type": "module",
   "homepage": "https://template.felt.dev/",
+  "repository": "https://github.com/feltjs/felt-template",
   "engines": {
     "node": ">=18.6"
   },
