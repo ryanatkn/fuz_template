@@ -35,8 +35,8 @@
 	};
 
 	const COLUMN_COUNT = 5;
-	const PADDING = 100;
-	const ICON_SCALE = 0.95;
+	const PADDING = 40;
+	const ICON_SCALE = 0.4;
 
 	let layout: LayoutItem[];
 	$: layout = clientWidth === undefined ? [] : toLayout(mreows, clientWidth);
