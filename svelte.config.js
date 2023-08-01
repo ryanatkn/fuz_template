@@ -7,7 +7,7 @@ import adapter from '@sveltejs/adapter-static';
 export default {
 	preprocess: typescript(),
 	compilerOptions: {immutable: true},
-	vitePlugin: {inspector: true},
+	vitePlugin: {inspector: true}, // docs: https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/inspector.md
 	kit: {
 		adapter: adapter(),
 		// paths: dev ? undefined : {base: '/felt-template'}, // for GitHub pages -- delete this line for top-level domains
