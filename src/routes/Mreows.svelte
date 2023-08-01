@@ -34,6 +34,10 @@
 		mreows = [{...randomItem(items)!}].concat(mreows);
 	};
 
+	const COLUMN_COUNT = 5;
+	const PADDING = 100;
+	const ICON_SCALE = 0.95;
+
 	let layout: LayoutItem[];
 	$: layout = clientWidth === undefined ? [] : toLayout(mreows, clientWidth);
 
@@ -48,11 +52,9 @@
 		fontSize: number;
 	}
 
-	const COLUMN_COUNT = 5;
-
 	// TODO tweened x/y?
 	const toLayout = (mreows: Mreow[], width: number): LayoutItem[] => {
-		const columnWidth = Math.floor(width / COLUMN_COUNT);
+		const columnWidth = Math.floor((width - PADDING * 2) / COLUMN_COUNT);
 		const ROW_HEIGHT = columnWidth;
 		return mreows.map((mreow, i): LayoutItem => {
 			const row = Math.floor(i / COLUMN_COUNT);
@@ -60,13 +62,13 @@
 			const column = flowsLeft ? COLUMN_COUNT - 1 - (i % COLUMN_COUNT) : i % COLUMN_COUNT;
 			return {
 				index: i,
-				x: column * columnWidth,
+				x: column * columnWidth + PADDING,
 				y: row * ROW_HEIGHT,
 				row,
 				column,
 				scale: 1,
 				mreow,
-				fontSize: columnWidth * 0.85,
+				fontSize: columnWidth * ICON_SCALE,
 			};
 		});
 	};

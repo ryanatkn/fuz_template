@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Message from '@feltjs/felt-ui/Message.svelte';
+	import Alert from '@feltjs/felt-ui/Alert.svelte';
 	import {base} from '$app/paths';
 
 	import Header from '$routes/Header.svelte';
@@ -11,13 +11,13 @@
 <main class="prose">
 	<section class="box">
 		<Header />
-		<Message>
+		<Alert>
 			<span slot="icon"
 				>{#if mreows}{mreows[0].icon}{:else}✨{/if}</span
 			><span
 				>hello, welcome to <a href="https://github.com/feltjs/felt-template">felt-template</a></span
 			>
-		</Message>
+		</Alert>
 		<p>
 			here's an <a href="{base}/route">example route</a>
 		</p>
