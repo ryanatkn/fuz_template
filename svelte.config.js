@@ -10,7 +10,9 @@ export default {
 	vitePlugin: {inspector: true}, // docs: https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/inspector.md
 	kit: {
 		adapter: adapter(),
-		// paths: dev ? undefined : {base: '/felt-template'}, // for GitHub pages -- delete this line for top-level domains
+		// `base` is for non-root domains like the default GitHub Pages
+		// username.github.io/repo - delete these comments for top-level domains
+		// paths: dev ? undefined : {base: '/felt-template'},
 		files: {assets: 'src/static'},
 		alias: {$routes: 'src/routes'},
 	},
