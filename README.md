@@ -97,6 +97,8 @@ See [Gro's build docs](https://github.com/feltjs/gro/blob/main/src/docs/build.md
 ## test
 
 ```bash
+npm test
+# or
 gro test
 gro test filepattern1 filepatternB
 gro test -- uvu --forwarded_args 'to uvu'
