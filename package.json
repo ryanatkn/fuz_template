@@ -58,5 +58,11 @@
         }
       }
     ]
+  },
+  "exports": {
+    "./example.js": {
+      "default": "./dist/example.js",
+      "types": "./dist/example.d.ts"
+    }
   }
 }
