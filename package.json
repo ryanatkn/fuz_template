@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@feltjs/eslint-config": "^0.3.1",
-    "@feltjs/felt-ui": "^0.66.1",
-    "@feltjs/gro": "^0.80.0",
+    "@feltjs/felt-ui": "^0.66.2",
+    "@feltjs/gro": "^0.82.1",
     "@feltjs/util": "^0.9.0",
     "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.22.6",
