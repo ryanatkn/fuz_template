@@ -7,16 +7,10 @@
 	import Dialog from '@feltjs/felt-ui/Dialog.svelte';
 	import Contextmenu from '@feltjs/felt-ui/Contextmenu.svelte';
 	import {createContextmenu} from '@feltjs/felt-ui/contextmenu.js';
-	import ContextmenuLinkEntry from '@feltjs/felt-ui/ContextmenuLinkEntry.svelte';
-	import ContextmenuTextEntry from '@feltjs/felt-ui/ContextmenuTextEntry.svelte';
 
 	import Settings from '$routes/Settings.svelte';
 
-	// TODO remove this boilerplate, should just be `const contextmenu = createContextmenu();`
-	const contextmenu = createContextmenu({
-		linkComponent: ContextmenuLinkEntry,
-		textComponent: ContextmenuTextEntry,
-	});
+	const contextmenu = createContextmenu();
 
 	let showSettings = false;
 </script>
