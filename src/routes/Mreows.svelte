@@ -3,6 +3,8 @@
 
 	import Positioned from '$routes/Positioned.svelte';
 
+	// don't use this component, it's just a hacky demo
+
 	interface Mreow {
 		icon: string;
 	}
@@ -36,7 +38,7 @@
 
 	const COLUMN_COUNT = 5;
 	const PADDING = 40;
-	const ICON_SCALE = 0.4;
+	const ICON_SCALE = 0.8;
 
 	let layout: LayoutItem[];
 	$: layout = clientWidth === undefined ? [] : toLayout(mreows, clientWidth);
@@ -81,7 +83,7 @@
 	{#each layout as item, i (item.mreow)}<Positioned
 			x={item.x}
 			y={item.y}
-			scale={item.scale + Math.cos(i) / 3.5}
+			scale={item.scale + Math.cos(i) / 2.5}
 			><span style:font-size="{item.fontSize}px">{item.mreow.icon}</span></Positioned
 		>{/each}
 </div>
@@ -90,5 +92,9 @@
 	.mreows {
 		position: relative;
 		width: 100%;
+	}
+	/* horrible hack but it's fine, this component shouldn't be used */
+	:global(body) {
+		overflow-x: hidden;
 	}
 </style>
