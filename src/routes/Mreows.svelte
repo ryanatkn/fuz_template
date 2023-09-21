@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {randomItem} from '@feltjs/util/random.js';
+	import {randomItem} from '@grogarden/util/random.js';
 
 	import Positioned from '$routes/Positioned.svelte';
 

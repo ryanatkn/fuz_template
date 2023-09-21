@@ -31,7 +31,7 @@ deployed:
     [styles](https://github.com/fuz-dev/fuz/blob/main/src/lib/style.css)
   - optional [utilities library](https://github.com/feltjs/util)
   - docs and more at [felt.dev](https://www.felt.dev/)
-  - to remove it, `npm uninstall @feltjs/felt-ui` and delete the imports
+  - to remove it, `npm uninstall @fuz.dev/fuz` and delete the imports
 
 ## usage
 

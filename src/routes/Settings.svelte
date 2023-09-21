@@ -1,6 +1,6 @@
 <script lang="ts">
-	import ColorSchemeInput from '@feltjs/felt-ui/ColorSchemeInput.svelte';
-	import ThemeInput from '@feltjs/felt-ui/ThemeInput.svelte';
+	import ColorSchemeInput from '@fuz.dev/fuz/ColorSchemeInput.svelte';
+	import ThemeInput from '@fuz.dev/fuz/ThemeInput.svelte';
 </script>
 
 <div class="prose padded_xl box">

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Breadcrumbs from '@feltjs/felt-ui/Breadcrumbs.svelte';
+	import Breadcrumbs from '@fuz.dev/fuz/Breadcrumbs.svelte';
 
 	import Header from '$routes/Header.svelte';
 </script>

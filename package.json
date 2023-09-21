@@ -1,7 +1,7 @@
 {
   "name": "@fuz.dev/template",
   "private": true,
-  "description": "a static web app and Node library template with SvelteKit, Gro, and Felt",
+  "description": "a static web app and Node library template with Svelte, SvelteKit, Fuz, and Gro",
   "version": "0.0.1",
   "type": "module",
   "homepage": "https://template.fuz.dev/",
@@ -21,7 +21,7 @@
   ],
   "devDependencies": {
     "@feltjs/eslint-config": "^0.4.0",
-    "@feltjs/felt-ui": "^0.66.2",
+    "@fuz.dev/fuz": "^0.67.0",
     "@grogarden/util": "^0.10.1",
     "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.25.0",
