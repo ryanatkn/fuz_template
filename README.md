@@ -26,10 +26,10 @@ deployed:
   - formatting with [Prettier](https://github.com/prettier/prettier)
   - linting with [ESLint](https://github.com/eslint/eslint)
     and [`@feltjs/eslint-config`](https://github.com/feltjs/eslint-config)
-  - also has [a task system](https://github.com/grogarden/gro/blob/main/src/docs/task.md)
-    with a bunch of [builtins](https://github.com/grogarden/gro/blob/main/src/docs/tasks.md),
-    [codegen](https://github.com/grogarden/gro/blob/main/src/docs/gen.md),
-    and [other things](https://github.com/grogarden/gro/tree/main/src/docs)
+  - also has [a task system](https://github.com/grogarden/gro/blob/main/src/lib/docs/task.md)
+    with a bunch of [builtins](https://github.com/grogarden/gro/blob/main/src/lib/docs/tasks.md),
+    [codegen](https://github.com/grogarden/gro/blob/main/src/lib/docs/gen.md),
+    and [other things](https://github.com/grogarden/gro/tree/main/src/lib/docs)
 - [Fuz](https://github.com/fuz-dev/fuz):
   - a library with Svelte [UI components](https://ui.felt.dev/library) and
     [styles](https://github.com/fuz-dev/fuz/blob/main/src/lib/style.css)
@@ -69,7 +69,7 @@ npm run dev
 
 The template includes
 [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
-so it can [deploy](https://github.com/grogarden/gro/blob/main/src/docs/deploy.md)
+so it can [deploy](https://github.com/grogarden/gro/blob/main/src/lib/docs/deploy.md)
 with no further configuration.
 To learn how to swap it out for another deployment target, see
 [the SvelteKit adapter docs](https://kit.svelte.dev/docs#adapters).
@@ -96,7 +96,7 @@ npm run build
 gro build
 ```
 
-See [Gro's build docs](https://github.com/grogarden/gro/blob/main/src/docs/build.md) for more.
+See [Gro's build docs](https://github.com/grogarden/gro/blob/main/src/lib/docs/build.md) for more.
 
 ## test
 
@@ -110,11 +110,11 @@ gro test -- uvu --forwarded_args 'to uvu'
 
 See [uvu](https://github.com/lukeed/uvu),
 [`src/lib/example.test.ts`](src/lib/example.test.ts),
-and [Gro's test docs](https://github.com/grogarden/gro/blob/main/src/docs/test.md) for more.
+and [Gro's test docs](https://github.com/grogarden/gro/blob/main/src/lib/docs/test.md) for more.
 
 ## deploy
 
-[Deploy](https://github.com/grogarden/gro/blob/main/src/docs/deploy.md)
+[Deploy](https://github.com/grogarden/gro/blob/main/src/lib/docs/deploy.md)
 (build, commit, and push) to the `deploy` branch, e.g. for GitHub Pages:
 
 ```bash
