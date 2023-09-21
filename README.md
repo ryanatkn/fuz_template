@@ -16,7 +16,7 @@ deployed:
 
 - [SvelteKit](https://github.com/sveltejs/kit) with [Svelte](https://github.com/sveltejs/svelte) and
   [Vite](https://github.com/vitejs/vite)
-- [Gro](https://github.com/feltjs/gro):
+- [Gro](https://github.com/grogarden/gro):
   - extends [SvelteKit](https://github.com/sveltejs/kit) and
     [Vite](https://github.com/vitejs/vite)
   - integrated [TypeScript](https://github.com/microsoft/TypeScript)
@@ -26,14 +26,14 @@ deployed:
   - formatting with [Prettier](https://github.com/prettier/prettier)
   - linting with [ESLint](https://github.com/eslint/eslint)
     and [`@feltjs/eslint-config`](https://github.com/feltjs/eslint-config)
-  - also has [a task system](https://github.com/feltjs/gro/blob/main/src/docs/task.md)
-    with a bunch of [builtins](https://github.com/feltjs/gro/blob/main/src/docs/tasks.md),
-    [codegen](https://github.com/feltjs/gro/blob/main/src/docs/gen.md),
-    and [other things](https://github.com/feltjs/gro/tree/main/src/docs)
-- [felt-ui](https://github.com/fuz-dev/fuz):
+  - also has [a task system](https://github.com/grogarden/gro/blob/main/src/docs/task.md)
+    with a bunch of [builtins](https://github.com/grogarden/gro/blob/main/src/docs/tasks.md),
+    [codegen](https://github.com/grogarden/gro/blob/main/src/docs/gen.md),
+    and [other things](https://github.com/grogarden/gro/tree/main/src/docs)
+- [Fuz](https://github.com/fuz-dev/fuz):
   - a library with Svelte [UI components](https://ui.felt.dev/library) and
     [styles](https://github.com/fuz-dev/fuz/blob/main/src/lib/style.css)
-  - optional [utilities library](https://github.com/grogarden/util)
+  - optional [utilities library `@grogarden/util`](https://github.com/grogarden/util)
   - docs and more at [felt.dev](https://www.felt.dev/)
   - to remove it, `npm uninstall @fuz.dev/fuz` and delete the imports
 
@@ -42,7 +42,7 @@ deployed:
 This project uses [SvelteKit](https://kit.svelte.dev/) with the static adapter
 and [Vite](https://vitejs.dev/),
 so the normal commands like `vite dev` work as expected.
-It also uses [`gro`](https://github.com/feltjs/gro)
+It also uses [`gro`](https://github.com/grogarden/gro)
 for additional things like deploying - see below for more.
 
 > [Windows is not yet supported](https://github.com/fuz-dev/template/issues/4)
@@ -64,12 +64,12 @@ npm run dev
 ```
 
 > learn more about [SvelteKit](https://github.com/sveltejs/kit),
-> [Vite](https://github.com/vitejs/vite), [Gro](https://github.com/feltjs/gro),
-> and [felt-ui](https://github.com/fuz-dev/fuz)
+> [Vite](https://github.com/vitejs/vite), [Gro](https://github.com/grogarden/gro),
+> and [Fuz](https://github.com/fuz-dev/fuz)
 
 The template includes
 [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
-so it can [deploy](https://github.com/feltjs/gro/blob/main/src/docs/deploy.md)
+so it can [deploy](https://github.com/grogarden/gro/blob/main/src/docs/deploy.md)
 with no further configuration.
 To learn how to swap it out for another deployment target, see
 [the SvelteKit adapter docs](https://kit.svelte.dev/docs#adapters).
@@ -96,7 +96,7 @@ npm run build
 gro build
 ```
 
-See [Gro's build docs](https://github.com/feltjs/gro/blob/main/src/docs/build.md) for more.
+See [Gro's build docs](https://github.com/grogarden/gro/blob/main/src/docs/build.md) for more.
 
 ## test
 
@@ -110,11 +110,11 @@ gro test -- uvu --forwarded_args 'to uvu'
 
 See [uvu](https://github.com/lukeed/uvu),
 [`src/lib/example.test.ts`](src/lib/example.test.ts),
-and [Gro's test docs](https://github.com/feltjs/gro/blob/main/src/docs/test.md) for more.
+and [Gro's test docs](https://github.com/grogarden/gro/blob/main/src/docs/test.md) for more.
 
 ## deploy
 
-[Deploy](https://github.com/feltjs/gro/blob/main/src/docs/deploy.md)
+[Deploy](https://github.com/grogarden/gro/blob/main/src/docs/deploy.md)
 (build, commit, and push) to the `deploy` branch, e.g. for GitHub Pages:
 
 ```bash
@@ -133,9 +133,9 @@ gro deploy
 [TypeScript](https://github.com/microsoft/TypeScript) ∙
 [ESLint](https://github.com/eslint/eslint) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
-[felt-ui](https://github.com/fuz-dev/fuz) ∙
+[Fuz](https://github.com/fuz-dev/fuz) ∙
 [@grogarden/util](https://github.com/grogarden/util) ∙
-[Gro](https://github.com/feltjs/gro)
+[Gro](https://github.com/grogarden/gro)
 & [more](package.json)
 
 ## [🐦](https://wikipedia.org/wiki/Free_and_open-source_software)
