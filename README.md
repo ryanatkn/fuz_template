@@ -33,7 +33,7 @@ deployed:
 - [Fuz](https://github.com/fuz-dev/fuz):
   - a library with Svelte [UI components](https://ui.felt.dev/library) and
     [styles](https://github.com/fuz-dev/fuz/blob/main/src/lib/style.css)
-  - optional [utilities library](https://github.com/feltjs/util)
+  - optional [utilities library `@grogarden/util`](https://github.com/grogarden/util)
   - docs and more at [felt.dev](https://www.felt.dev/)
   - to remove it, `npm uninstall @fuz.dev/fuz` and delete the imports
 
@@ -134,7 +134,7 @@ gro deploy
 [ESLint](https://github.com/eslint/eslint) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
 [Fuz](https://github.com/fuz-dev/fuz) ∙
-[@feltjs/util](https://github.com/feltjs/util) ∙
+[@grogarden/util](https://github.com/grogarden/util) ∙
 [Gro](https://github.com/grogarden/gro)
 & [more](package.json)
 
