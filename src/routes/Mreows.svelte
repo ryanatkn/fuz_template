@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {randomItem} from '@grogarden/util/random.js';
+	import {random_item} from '@grogarden/util/random.js';
 
 	import Positioned from '$routes/Positioned.svelte';
 
@@ -33,7 +33,7 @@
 	export let mreows = [items[4]];
 
 	const mreow = (): void => {
-		mreows = [{...randomItem(items)!}].concat(mreows);
+		mreows = [{...random_item(items)!}].concat(mreows);
 	};
 
 	const COLUMN_COUNT = 5;
