@@ -1,11 +1,11 @@
 {
-  "name": "felt-template",
+  "name": "@fuz.dev/template",
   "private": true,
   "description": "a static web app and Node library template with SvelteKit, Gro, and Felt",
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://template.felt.dev/",
-  "repository": "https://github.com/feltjs/felt-template",
+  "homepage": "https://template.fuz.dev/",
+  "repository": "https://github.com/fuz-dev/template",
   "engines": {
     "node": ">=20.5"
   },
