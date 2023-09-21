@@ -1,7 +1,7 @@
 {
   "name": "@fuz.dev/template",
   "private": true,
-  "description": "a static web app and Node library template with Svelte, SvelteKit, Fuz, and Gro",
+  "description": "a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro",
   "version": "0.0.1",
   "type": "module",
   "homepage": "https://template.fuz.dev/",
