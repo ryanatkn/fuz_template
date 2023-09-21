@@ -1,4 +1,4 @@
-# felt-template
+# @fuz.dev/template
 
 > a static web app and Node library template with [Svelte](https://github.com/sveltejs/svelte),
 > [SvelteKit](https://github.com/sveltejs/kit),
@@ -6,7 +6,7 @@
 > and [Gro](https://github.com/feltjs/gro)
 
 deployed:
-[template.felt.dev](https://template.felt.dev/)
+[template.fuz.dev](https://template.fuz.dev/)
 
 ## contents
 
@@ -27,7 +27,7 @@ deployed:
     [codegen](https://github.com/feltjs/gro/blob/main/src/docs/gen.md),
     and [other things](https://github.com/feltjs/gro/tree/main/src/docs)
 - [felt-ui](https://github.com/feltjs/felt-ui):
-  - a library with Svelte [UI components](https://www.felt.dev/sketch/library) and
+  - a library with Svelte [UI components](https://ui.felt.dev/library) and
     [styles](https://github.com/feltjs/felt-ui/blob/main/src/lib/style.css)
   - optional [utilities library](https://github.com/feltjs/util)
   - docs and more at [felt.dev](https://www.felt.dev/)
@@ -41,14 +41,14 @@ so the normal commands like `vite dev` work as expected.
 It also uses [`gro`](https://github.com/feltjs/gro)
 for additional things like deploying - see below for more.
 
-> [Windows is not yet supported](https://github.com/feltjs/felt-template/issues/4)
+> [Windows is not yet supported](https://github.com/fuz-dev/template/issues/4)
 > (we recommend [WSL](https://docs.microsoft.com/en-us/windows/wsl/about))
 
 If you're logged into GitHub, click "Use this template" above or clone with
 [`degit`](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit feltjs/felt-template cooltoy
+npx degit fuz-dev/template cooltoy
 cd cooltoy
 npm i
 # then
@@ -70,7 +70,7 @@ with no further configuration.
 To learn how to swap it out for another deployment target, see
 [the SvelteKit adapter docs](https://kit.svelte.dev/docs#adapters).
 
-To make it your own, change `felt-template` and `template.felt.dev`
+To make it your own, change `@fuz.dev/template` and `template.fuz.dev`
 to your project name in the following files:
 
 - [`package.json`](package.json)

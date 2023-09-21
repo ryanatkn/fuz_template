@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-	<title>felt-template</title>
+	<title>@fuz.dev/template</title>
 </svelte:head>
 
 <svelte:body
