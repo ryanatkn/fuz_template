@@ -1,9 +1,13 @@
 # @fuz.dev/template
 
-> a static web app and Node library template with [Svelte](https://github.com/sveltejs/svelte),
+> a static web app and Node library template with
+> [TypeScript](https://github.com/microsoft/TypeScript),
+> [Svelte](https://github.com/sveltejs/svelte),
 > [SvelteKit](https://github.com/sveltejs/kit),
-> [felt-ui](https://github.com/feltjs/felt-ui),
-> and [Gro](https://github.com/feltjs/gro)
+> [Vite](https://github.com/vitejs/vite),
+> [esbuild](https://github.com/evanw/esbuild),
+> [Fuz](https://github.com/fuz-dev/fuz),
+> and [Gro](https://github.com/grogarden/gro)
 
 deployed:
 [template.fuz.dev](https://template.fuz.dev/)
