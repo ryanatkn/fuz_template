@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Alert from '@feltjs/felt-ui/Alert.svelte';
+	import Alert from '@fuz.dev/fuz/Alert.svelte';
 	import {base} from '$app/paths';
 
 	import Header from '$routes/Header.svelte';

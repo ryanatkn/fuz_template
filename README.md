@@ -30,12 +30,12 @@ deployed:
     with a bunch of [builtins](https://github.com/feltjs/gro/blob/main/src/docs/tasks.md),
     [codegen](https://github.com/feltjs/gro/blob/main/src/docs/gen.md),
     and [other things](https://github.com/feltjs/gro/tree/main/src/docs)
-- [felt-ui](https://github.com/feltjs/felt-ui):
+- [felt-ui](https://github.com/fuz-dev/fuz):
   - a library with Svelte [UI components](https://ui.felt.dev/library) and
-    [styles](https://github.com/feltjs/felt-ui/blob/main/src/lib/style.css)
-  - optional [utilities library](https://github.com/feltjs/util)
+    [styles](https://github.com/fuz-dev/fuz/blob/main/src/lib/style.css)
+  - optional [utilities library](https://github.com/grogarden/util)
   - docs and more at [felt.dev](https://www.felt.dev/)
-  - to remove it, `npm uninstall @feltjs/felt-ui` and delete the imports
+  - to remove it, `npm uninstall @fuz.dev/fuz` and delete the imports
 
 ## usage
 
@@ -65,7 +65,7 @@ npm run dev
 
 > learn more about [SvelteKit](https://github.com/sveltejs/kit),
 > [Vite](https://github.com/vitejs/vite), [Gro](https://github.com/feltjs/gro),
-> and [felt-ui](https://github.com/feltjs/felt-ui)
+> and [felt-ui](https://github.com/fuz-dev/fuz)
 
 The template includes
 [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
@@ -133,8 +133,8 @@ gro deploy
 [TypeScript](https://github.com/microsoft/TypeScript) ∙
 [ESLint](https://github.com/eslint/eslint) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
-[felt-ui](https://github.com/feltjs/felt-ui) ∙
-[@feltjs/util](https://github.com/feltjs/util) ∙
+[felt-ui](https://github.com/fuz-dev/fuz) ∙
+[@grogarden/util](https://github.com/grogarden/util) ∙
 [Gro](https://github.com/feltjs/gro)
 & [more](package.json)
 
