@@ -58,7 +58,7 @@ npm i
 # then
 vite dev
 # or
-gro dev # npm i -g @feltjs/gro
+gro dev # npm i -g @grogarden/gro
 # or
 npm run dev
 ```
