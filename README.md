@@ -29,12 +29,10 @@
     with a bunch of [builtins](https://github.com/grogarden/gro/blob/main/src/lib/docs/tasks.md),
     [codegen](https://github.com/grogarden/gro/blob/main/src/lib/docs/gen.md),
     and [other things](https://github.com/grogarden/gro/tree/main/src/lib/docs)
-- [Fuz](https://github.com/fuz-dev/fuz):
-  - a library with Svelte [UI components](https://ui.felt.dev/library) and
-    [styles](https://github.com/fuz-dev/fuz/blob/main/src/lib/style.css)
   - optional [utilities library `@grogarden/util`](https://github.com/grogarden/util)
-  - docs and more at [felt.dev](https://www.felt.dev/)
-  - to remove it, `npm uninstall @fuz.dev/fuz` and delete the imports
+- [Fuz](https://github.com/fuz-dev/fuz):
+  - libraries with styles, themes, and Svelte components - [fuz.dev](https://www.fuz.dev/)
+  - to remove `npm uninstall @fuz.dev/fuz` and related deps, and delete the imports
 
 ## usage
 
