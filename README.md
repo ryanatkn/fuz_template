@@ -9,8 +9,7 @@
 > [Fuz](https://github.com/fuz-dev/fuz),
 > and [Gro](https://github.com/grogarden/gro)
 
-deployed:
-[template.fuz.dev](https://template.fuz.dev/)
+[**template.fuz.dev**](https://template.fuz.dev/)
 
 ## contents
 
