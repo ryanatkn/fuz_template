@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-	<title>@fuz.dev/fuz-template</title>
+	<title>@fuz.dev/fuz_template</title>
 </svelte:head>
 
 <svelte:body
