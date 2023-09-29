@@ -7,7 +7,7 @@
   "homepage": "https://template.fuz.dev/",
   "repository": "https://github.com/fuz-dev/fuz_template",
   "engines": {
-    "node": ">=20.5"
+    "node": ">=20.7"
   },
   "scripts": {
     "start": "gro dev",
