@@ -22,6 +22,7 @@
   "devDependencies": {
     "@feltjs/eslint-config": "^0.4.0",
     "@fuz.dev/fuz": "^0.69.1",
+    "@fuz.dev/fuz_library": "^0.1.0",
     "@grogarden/gro": "^0.92.0",
     "@grogarden/util": "^0.15.0",
     "@sveltejs/adapter-static": "^2.0.3",
