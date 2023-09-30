@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Breadcrumbs from '@fuz.dev/fuz_library/Breadcrumbs.svelte';
+	import Breadcrumb from '@fuz.dev/fuz_library/Breadcrumb.svelte';
 
 	import Header from '$routes/Header.svelte';
 </script>
@@ -8,7 +8,7 @@
 	<section class="box">
 		<Header />
 		<p>this is an example route</p>
-		<Breadcrumbs>🏠</Breadcrumbs>
+		<Breadcrumb>🏠</Breadcrumb>
 	</section>
 </main>
 

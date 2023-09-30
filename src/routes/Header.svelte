@@ -1,5 +1,5 @@
 <header>
-	<h1>felt<small><a href="https://github.com/feltjs">💚</a></small>template</h1>
+	<h1>fuz<small><a href="https://www.fuz.dev/">🧶</a></small>template</h1>
 </header>
 
 <style>
