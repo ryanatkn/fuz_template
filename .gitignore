@@ -7,6 +7,7 @@
 /dist
 
 /.gro
+/dist_*
 
 *.pem
 /.env*
