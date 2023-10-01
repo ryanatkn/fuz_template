@@ -12,7 +12,7 @@
 
 	const contextmenu = create_contextmenu();
 
-	let showSettings = false;
+	let show_settings = false;
 </script>
 
 <svelte:head>
@@ -25,7 +25,7 @@
 			content: 'Settings',
 			icon: '?',
 			run: () => {
-				showSettings = true;
+				show_settings = true;
 			},
 		},
 		{
@@ -41,8 +41,8 @@
 <Themed>
 	<slot />
 	<Contextmenu {contextmenu} />
-	{#if showSettings}
-		<Dialog on:close={() => (showSettings = false)}>
+	{#if show_settings}
+		<Dialog on:close={() => (show_settings = false)}>
 			<div class="pane">
 				<Settings />
 			</div>
