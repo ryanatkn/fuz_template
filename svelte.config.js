@@ -14,6 +14,6 @@ export default {
 		// delete these comments for top-level domains
 		// paths: import.meta.env.DEV ? undefined : {base: '/template'},
 		files: {assets: 'src/static'},
-		alias: {$routes: 'src/routes'},
+		alias: {$routes: 'src/routes', $fixtures: 'src/fixtures'},
 	},
 };
