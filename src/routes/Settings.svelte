@@ -3,7 +3,7 @@
 	import ThemeInput from '@fuz.dev/fuz/ThemeInput.svelte';
 </script>
 
-<div class="prose padded_xl box">
+<div class="prose padded_1 box">
 	<h1>Settings</h1>
 	<h2>Color Scheme</h2>
 	<ColorSchemeInput />

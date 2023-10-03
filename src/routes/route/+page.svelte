@@ -36,6 +36,6 @@
 		margin: 0 auto;
 	}
 	section {
-		margin-bottom: var(--spacing_xl3);
+		margin-bottom: var(--spacing_3);
 	}
 </style>
