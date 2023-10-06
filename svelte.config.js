@@ -13,7 +13,6 @@ export default {
 		// `username.github.io/repo` where `repo` is `base` -
 		// delete these comments for top-level domains
 		// paths: import.meta.env.DEV ? undefined : {base: '/template'},
-		files: {assets: 'src/static'},
 		alias: {$routes: 'src/routes', $fixtures: 'src/fixtures'},
 	},
 };
