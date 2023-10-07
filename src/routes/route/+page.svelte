@@ -3,12 +3,11 @@
 	import {parse_package_meta} from '@fuz.dev/fuz_library/package.js';
 	import LibraryHeader from '@fuz.dev/fuz_library/LibraryHeader.svelte';
 	import LibraryFooter from '@fuz.dev/fuz_library/LibraryFooter.svelte';
+	// TODO BLOCK maybe this?
+	import package_json from '$static/.well-known/package.json';
 
 	import Header from '$routes/Header.svelte';
 
-	// TODO SvelteKit warns about this but we put `/static` in `/src` because of what it's saying,
-	/// maybe change to import as the first item from `packages`
-	import package_json from '../../static/.well-known/package.json';
 	const pkg = parse_package_meta(package_json.homepage, package_json);
 </script>
 
