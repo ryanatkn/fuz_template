@@ -1,10 +1,9 @@
-//@ts-expect-error
-import {typescript} from 'svelte-preprocess-esbuild';
+import {vitePreprocess} from '@sveltejs/kit/vite';
 import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 export default {
-	preprocess: typescript(),
+	preprocess: [vitePreprocess()],
 	compilerOptions: {immutable: true},
 	vitePlugin: {inspector: true}, // docs: https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/inspector.md
 	kit: {
