@@ -2,7 +2,7 @@
 	import Breadcrumb from '@fuz.dev/fuz_library/Breadcrumb.svelte';
 	import Alert from '@fuz.dev/fuz_library/Alert.svelte';
 	import PendingAnimation from '@fuz.dev/fuz_library/PendingAnimation.svelte';
-	import {parse_package_meta} from '@fuz.dev/fuz_library/package.js';
+	import {parse_package_meta} from '@fuz.dev/fuz_library/package_meta.js';
 	import LibraryHeader from '@fuz.dev/fuz_library/LibraryHeader.svelte';
 	import LibraryFooter from '@fuz.dev/fuz_library/LibraryFooter.svelte';
 	import type {PackageJson} from '@grogarden/gro/package_json.js';
