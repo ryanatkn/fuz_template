@@ -1,7 +1,7 @@
 import {type CreateGroConfig, replace_plugin} from '@grogarden/gro';
 
-// This config file can be deleted for projects that want the normal defaults. See below for more.
-// See Gro for more: https://github.com/grogarden/gro
+// This config file can be deleted for projects that want the normal defaults.
+// Gro docs: https://github.com/grogarden/gro
 
 const config: CreateGroConfig = async (cfg) => {
 	// This template's `package.json` has `"private": true` to protect users,
