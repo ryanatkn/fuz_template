@@ -115,6 +115,7 @@ and [Gro's test docs](https://github.com/grogarden/gro/blob/main/src/lib/docs/te
 (build, commit, and push) to the `deploy` branch, e.g. for GitHub Pages:
 
 ```bash
+npm i -D @sveltejs/package # enables Gro's library plugin by default
 npm run deploy
 # or
 gro deploy
