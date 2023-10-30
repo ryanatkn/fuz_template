@@ -4,10 +4,10 @@ import type {PackageJson} from '@grogarden/gro/package_json.js';
 
 export const package_json = {
 	name: '@fuz.dev/fuz_template',
-	private: true,
 	description:
 		'a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro',
 	version: '0.0.1',
+	public: true,
 	homepage: 'https://template.fuz.dev/',
 	repository: 'https://github.com/fuz-dev/fuz_template',
 	type: 'module',
@@ -25,8 +25,8 @@ export const package_json = {
 		'@fuz.dev/fuz': '^0.76.0',
 		'@fuz.dev/fuz_contextmenu': '^0.5.0',
 		'@fuz.dev/fuz_dialog': '^0.4.0',
-		'@fuz.dev/fuz_library': '^0.16.0',
-		'@grogarden/gro': '^0.97.0',
+		'@fuz.dev/fuz_library': '^0.16.1',
+		'@grogarden/gro': '^0.98.0',
 		'@grogarden/util': '^0.15.2',
 		'@sveltejs/adapter-static': '^2.0.3',
 		'@sveltejs/kit': '^1.27.1',

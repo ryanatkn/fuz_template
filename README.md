@@ -39,8 +39,22 @@
 This project uses [SvelteKit](https://kit.svelte.dev/) with the static adapter
 and [Vite](https://vitejs.dev/),
 so the normal commands like `vite dev` work as expected.
-It also uses [`gro`](https://github.com/grogarden/gro)
-for additional things like deploying - see below for more.
+It also uses [Gro](https://github.com/grogarden/gro)
+for tasks like deploying and more.
+
+**⚠️ Important,** this template is designed for **public** open source projects.
+Its `package.json` has `"public": true` by default,
+which [tells Gro](https://github.com/grogarden/gro/blob/main/src/lib/docs/gro_plugin_sveltekit_frontend.md#well_known_package_json)
+to publish the `package.json` and a map of its `src/` directory
+to `static/.well-known/` during the build.
+This can leak sensitive information if you are not careful ⚠️
+To disable the feature:
+
+```diff
+// package.json
+- "public": true, // remove this to disable the public `.well-known` files
++ "private": true, // maybe add this to opt into disabling npm publish
+```
 
 > [Windows is not yet supported](https://github.com/fuz-dev/fuz_template/issues/4)
 > (we recommend [WSL](https://docs.microsoft.com/en-us/windows/wsl/about))
