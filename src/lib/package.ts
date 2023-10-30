@@ -25,7 +25,7 @@ export const package_json = {
 		'@fuz.dev/fuz': '^0.77.1',
 		'@fuz.dev/fuz_contextmenu': '^0.5.1',
 		'@fuz.dev/fuz_dialog': '^0.4.2',
-		'@fuz.dev/fuz_library': '^0.17.0',
+		'@fuz.dev/fuz_library': '^0.17.1',
 		'@grogarden/gro': '^0.98.1',
 		'@grogarden/util': '^0.15.2',
 		'@sveltejs/adapter-static': '^2.0.3',
