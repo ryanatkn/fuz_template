@@ -30,7 +30,7 @@
 		{icon: '🐲'},
 	];
 
-	export let mreows = [items[4]];
+	export let mreows: Mreow[] = [random_item(items)!, items[4]];
 
 	const mreow = (): void => {
 		mreows = [{...random_item(items)!}].concat(mreows);
@@ -41,7 +41,7 @@
 	const ICON_SCALE = 0.8;
 
 	let layout: LayoutItem[];
-	$: layout = clientWidth === undefined ? [] : toLayout(mreows, clientWidth);
+	$: layout = clientWidth === undefined ? [] : to_layout(mreows.slice(1), clientWidth);
 
 	interface LayoutItem {
 		index: number;
@@ -55,7 +55,7 @@
 	}
 
 	// TODO tweened x/y?
-	const toLayout = (mreows: Mreow[], width: number): LayoutItem[] => {
+	const to_layout = (mreows: Mreow[], width: number): LayoutItem[] => {
 		const columnWidth = Math.floor((width - PADDING * 2) / COLUMN_COUNT);
 		const ROW_HEIGHT = columnWidth;
 		return mreows.map((mreow, i): LayoutItem => {

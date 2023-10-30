@@ -4,4 +4,4 @@
  * @see https://github.com/grogarden/gro/blob/main/src/lib/docs/publish.md
  * @see https://kit.svelte.dev/docs/packaging
  */
-export const a = 5;
+export const example_a = 5;

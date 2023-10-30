@@ -7,10 +7,10 @@
 import {test} from 'uvu';
 import * as assert from 'uvu/assert';
 
-import {a} from '$lib/example';
+import {example_a} from '$lib/example';
 
 test('everything looks good', () => {
-	assert.is(a, 5);
+	assert.is(example_a, 5);
 });
 
 test.run();
