@@ -5,3 +5,5 @@
  * @see https://kit.svelte.dev/docs/packaging
  */
 export const example_a = 5;
+
+export const example_b = (): boolean => true;
