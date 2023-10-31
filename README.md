@@ -48,7 +48,7 @@ which [tells Gro](https://github.com/grogarden/gro/blob/main/src/lib/docs/gro_pl
 to publish the `package.json` and a map of its `src/` directory
 to `static/.well-known/` during the build.
 This can leak sensitive information if you are not careful ⚠️
-To disable the feature:
+To disable the feature, edit [package.json](/package.json):
 
 ```diff
 // package.json
