@@ -1,7 +1,7 @@
 <script lang="ts">
-	import PackageDetail from '@fuz.dev/fuz_library/PackageDetail.svelte';
+	import Package_Detail from '@fuz.dev/fuz_library/Package_Detail.svelte';
 	import {parse_package_meta} from '@fuz.dev/fuz_library/package_meta.js';
-	import LibraryFooter from '@fuz.dev/fuz_library/LibraryFooter.svelte';
+	import Library_Footer from '@fuz.dev/fuz_library/Library_Footer.svelte';
 	import Breadcrumb from '@fuz.dev/fuz_library/Breadcrumb.svelte';
 
 	import {package_json} from '$lib/package.js';
@@ -13,8 +13,8 @@
 
 <main class="width_md">
 	<div class="prose">
-		<section>
-			<header>
+		<section class="box">
+			<header class="box">
 				<h1>fuz_template</h1>
 			</header>
 			<Breadcrumb>🧶</Breadcrumb>
@@ -22,11 +22,11 @@
 	</div>
 	<section class="box width_full spaced">
 		<div class="panel padded_md width_md">
-			<PackageDetail {pkg} />
+			<Package_Detail {pkg} />
 		</div>
 	</section>
 	<section class="box">
-		<LibraryFooter {pkg} />
+		<Library_Footer {pkg} />
 		<Breadcrumb>🧶</Breadcrumb>
 	</section>
 </main>
