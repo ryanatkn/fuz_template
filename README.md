@@ -53,7 +53,7 @@ To disable the feature:
 ```diff
 // package.json
 - "public": true, // remove this to disable the public `.well-known` files
-+ "private": true, // maybe add this to opt into disabling npm publish
++ "private": true, // if you want to disable npm publishing, add this
 ```
 
 > [Windows is not yet supported](https://github.com/fuz-dev/fuz_template/issues/4)
