@@ -27,7 +27,7 @@ export const package_json = {
 		'@fuz.dev/fuz_dialog': '^0.4.2',
 		'@fuz.dev/fuz_library': '^0.17.1',
 		'@grogarden/gro': '^0.98.1',
-		'@grogarden/util': '^0.15.2',
+		'@grogarden/util': '^0.15.4',
 		'@sveltejs/adapter-static': '^2.0.3',
 		'@sveltejs/kit': '^1.27.2',
 		'@typescript-eslint/eslint-plugin': '^6.9.1',

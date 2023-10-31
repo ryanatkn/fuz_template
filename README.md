@@ -145,9 +145,10 @@ gro deploy
 [TypeScript](https://github.com/microsoft/TypeScript) ∙
 [ESLint](https://github.com/eslint/eslint) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
+[Gro](https://github.com/grogarden/gro) ∙
 [Fuz](https://github.com/fuz-dev/fuz) ∙
 [@grogarden/util](https://github.com/grogarden/util) ∙
-[Gro](https://github.com/grogarden/gro)
+[Zod](https://github.com/colinhacks/zod) ∙
 & [more](package.json)
 
 ## [🐦](https://wikipedia.org/wiki/Free_and_open-source_software)
