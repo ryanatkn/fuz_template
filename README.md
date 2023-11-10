@@ -69,9 +69,10 @@ npm i
 # then
 vite dev
 # or
-gro dev # npm i -g @grogarden/gro
-# or
 npm run dev
+# or
+gro dev # npm i -g @grogarden/gro
+gro sync # called by `gro dev`, refreshes generated files and calls `svelte-kit sync`
 ```
 
 > learn more about [SvelteKit](https://github.com/sveltejs/kit),

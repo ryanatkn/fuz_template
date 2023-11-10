@@ -67,8 +67,10 @@ export const src_json = {
 		'./example.js': {
 			path: 'example.ts',
 			declarations: [
-				{name: 'example_a', kind: 'variable'},
-				{name: 'example_b', kind: 'function'},
+				{name: 'example_variable', kind: 'variable'},
+				{name: 'example_function', kind: 'function'},
+				{name: 'Example_Class', kind: 'class'},
+				{name: 'Example_Type', kind: 'type'},
 			],
 		},
 		'./package.gen.js': {path: 'package.gen.ts', declarations: []},
