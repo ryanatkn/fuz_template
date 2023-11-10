@@ -13,7 +13,7 @@
 	// TODO what's a better way to do this? problem is using Svelte's `in:scale`
 	// makes things go haywire in some cases because we're also setting `transform`
 	onMount(() => {
-		setTimeout(() => (scale_ready = true)); // doing one `await tick()` doesn't work but timeout does
+		setTimeout(() => (scale_ready = true), 20); // TODO fixes initial scale, doing `await tick()` even 3x doesn't work but timeout does, idk
 	});
 </script>
 
