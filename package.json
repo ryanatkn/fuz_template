@@ -61,19 +61,5 @@
         }
       }
     ]
-  },
-  "exports": {
-    "./example.js": {
-      "default": "./dist/example.js",
-      "types": "./dist/example.d.ts"
-    },
-    "./package.gen.js": {
-      "default": "./dist/package.gen.js",
-      "types": "./dist/package.gen.d.ts"
-    },
-    "./package.js": {
-      "default": "./dist/package.js",
-      "types": "./dist/package.d.ts"
-    }
   }
 }
