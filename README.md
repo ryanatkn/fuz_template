@@ -1,4 +1,4 @@
-# @fuz.dev/fuz_template
+# @fuz.dev/fuz_template ❄
 
 > a static web app and Node library template with
 > [TypeScript](https://github.com/microsoft/TypeScript),

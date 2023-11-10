@@ -6,9 +6,10 @@ import type {Src_Json} from '@grogarden/gro/src_json.js';
 
 export const package_json = {
 	name: '@fuz.dev/fuz_template',
+	version: '0.0.1',
 	description:
 		'a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro',
-	version: '0.0.1',
+	icon: '❄',
 	public: true,
 	homepage: 'https://template.fuz.dev/',
 	repository: 'https://github.com/fuz-dev/fuz_template',
