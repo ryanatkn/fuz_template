@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {random_item} from '@grogarden/util/random.js';
+	import {random_item} from '@ryanatkn/belt/random.js';
 
 	import Positioned from '$routes/Positioned.svelte';
 
