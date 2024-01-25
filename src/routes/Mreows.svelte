@@ -30,10 +30,10 @@
 		{icon: '🐲'},
 	];
 
-	export let mreows: Mreow[] = [random_item(items)!, items[4]];
+	export let mreows: Mreow[] = [random_item(items), items[4]];
 
 	const mreow = (): void => {
-		mreows = [{...random_item(items)!}].concat(mreows);
+		mreows = [{...random_item(items)}].concat(mreows);
 	};
 
 	const COLUMN_COUNT = 5;
