@@ -17,7 +17,7 @@
 			<header class="box">
 				<h1>fuz_template</h1>
 			</header>
-			<Breadcrumb>🧶</Breadcrumb>
+			<Breadcrumb>{package_json.icon}</Breadcrumb>
 		</section>
 	</div>
 	<section class="box width_full spaced">
@@ -27,7 +27,7 @@
 	</section>
 	<section class="box">
 		<Library_Footer {pkg} />
-		<Breadcrumb>🧶</Breadcrumb>
+		<Breadcrumb>{package_json.icon}</Breadcrumb>
 	</section>
 </main>
 
