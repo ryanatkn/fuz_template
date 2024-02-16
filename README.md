@@ -1,4 +1,4 @@
-# @fuz.dev/fuz_template ❄
+# @ryanatkn/fuz_template ❄
 
 > a static web app and Node library template with
 > [TypeScript](https://github.com/microsoft/TypeScript),
@@ -86,7 +86,7 @@ with no further configuration.
 To learn how to swap it out for another deployment target, see
 [the SvelteKit adapter docs](https://kit.svelte.dev/docs#adapters).
 
-To make it your own, change `@fuz.dev/fuz_template` and `template.fuz.dev`
+To make it your own, change `@ryanatkn/fuz_template` and `template.fuz.dev`
 to your project name in the following files:
 
 - [`package.json`](package.json)

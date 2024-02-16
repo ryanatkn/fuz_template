@@ -1,5 +1,5 @@
 {
-  "name": "@fuz.dev/fuz_template",
+  "name": "@ryanatkn/fuz_template",
   "version": "0.0.1",
   "description": "a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro",
   "icon": "❄",
@@ -21,12 +21,9 @@
     "dist"
   ],
   "devDependencies": {
-    "@fuz.dev/fuz": "^0.81.0",
-    "@fuz.dev/fuz_contextmenu": "^0.7.0",
-    "@fuz.dev/fuz_dialog": "^0.6.0",
-    "@fuz.dev/fuz_library": "^0.23.0",
     "@ryanatkn/belt": "^0.20.3",
     "@ryanatkn/eslint-config": "^0.1.0",
+    "@ryanatkn/fuz": "^0.83.0",
     "@ryanatkn/gro": "^0.112.0",
     "@sveltejs/adapter-static": "^3.0.1",
     "@sveltejs/kit": "^2.4.3",
