@@ -11,7 +11,7 @@ export const package_json = {
 	icon: '❄',
 	public: true,
 	homepage: 'https://template.fuz.dev/',
-	repository: 'https://github.com/fuz-dev/fuz_template',
+	repository: 'https://github.com/ryanatkn/fuz_template',
 	type: 'module',
 	engines: {node: '>=20.10'},
 	scripts: {
