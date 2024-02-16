@@ -32,7 +32,7 @@
   - optional [utilities library `@ryanatkn/belt`](https://github.com/ryanatkn/belt)
 - [Fuz](https://github.com/ryanatkn/fuz):
   - libraries with styles, themes, and Svelte components - [fuz.dev](https://www.fuz.dev/)
-  - to remove `npm uninstall @fuz.dev/fuz` and related deps, and delete the imports
+  - to remove `npm uninstall @ryanatkn/fuz` and related deps, and delete the imports
 
 ## usage
 

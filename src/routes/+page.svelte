@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Alert from '@fuz.dev/fuz_library/Alert.svelte';
+	import Alert from '@ryanatkn/fuz/Alert.svelte';
 	import {base} from '$app/paths';
 
 	import Mreows from '$routes/Mreows.svelte';
