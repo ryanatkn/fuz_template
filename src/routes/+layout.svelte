@@ -1,12 +1,12 @@
 <script lang="ts">
-	import '@fuz.dev/fuz/style.css';
-	import '@fuz.dev/fuz/theme.css';
+	import '@ryanatkn/fuz/style.css';
+	import '@ryanatkn/fuz/theme.css';
 	import '$routes/style.css';
 
-	import Themed from '@fuz.dev/fuz/Themed.svelte';
-	import Dialog from '@fuz.dev/fuz_dialog/Dialog.svelte';
-	import Contextmenu from '@fuz.dev/fuz_contextmenu/Contextmenu.svelte';
-	import {create_contextmenu} from '@fuz.dev/fuz_contextmenu/contextmenu.js';
+	import Themed from '@ryanatkn/fuz/Themed.svelte';
+	import Dialog from '@ryanatkn/fuz/Dialog.svelte';
+	import Contextmenu from '@ryanatkn/fuz/Contextmenu.svelte';
+	import {create_contextmenu} from '@ryanatkn/fuz/contextmenu.js';
 
 	import Settings from '$routes/Settings.svelte';
 
@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-	<title>@fuz.dev/fuz_template</title>
+	<title>@ryanatkn/fuz_template</title>
 </svelte:head>
 
 <svelte:body

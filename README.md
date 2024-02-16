@@ -1,4 +1,4 @@
-# @fuz.dev/fuz_template ❄
+# @ryanatkn/fuz_template ❄
 
 > a static web app and Node library template with
 > [TypeScript](https://github.com/microsoft/TypeScript),
@@ -6,7 +6,7 @@
 > [SvelteKit](https://github.com/sveltejs/kit),
 > [Vite](https://github.com/vitejs/vite),
 > [esbuild](https://github.com/evanw/esbuild),
-> [Fuz](https://github.com/fuz-dev/fuz),
+> [Fuz](https://github.com/ryanatkn/fuz),
 > and [Gro](https://github.com/ryanatkn/gro)
 
 [**template.fuz.dev**](https://template.fuz.dev/)
@@ -30,9 +30,9 @@
     [codegen](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/gen.md),
     and [other things](https://github.com/ryanatkn/gro/tree/main/src/lib/docs)
   - optional [utilities library `@ryanatkn/belt`](https://github.com/ryanatkn/belt)
-- [Fuz](https://github.com/fuz-dev/fuz):
+- [Fuz](https://github.com/ryanatkn/fuz):
   - libraries with styles, themes, and Svelte components - [fuz.dev](https://www.fuz.dev/)
-  - to remove `npm uninstall @fuz.dev/fuz` and related deps, and delete the imports
+  - to remove, `npm uninstall @ryanatkn/fuz` and delete the imports
 
 ## usage
 
@@ -56,14 +56,14 @@ To disable the feature, edit [package.json](/package.json):
 + "private": true, // if you want to disable npm publishing, add this
 ```
 
-> [Windows is not yet supported](https://github.com/fuz-dev/fuz_template/issues/4)
+> [Windows is not yet supported](https://github.com/ryanatkn/fuz_template/issues/4)
 > (we recommend [WSL](https://docs.microsoft.com/en-us/windows/wsl/about))
 
 If you're logged into GitHub, click "Use this template" above or clone with
 [`degit`](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit fuz-dev/fuz_template cooltoy
+npx degit ryanatkn/fuz_template cooltoy
 cd cooltoy
 npm i
 # then
@@ -77,7 +77,7 @@ gro sync # called by `gro dev`, refreshes generated files and calls `svelte-kit 
 
 > learn more about [SvelteKit](https://github.com/sveltejs/kit),
 > [Vite](https://github.com/vitejs/vite), [Gro](https://github.com/ryanatkn/gro),
-> and [Fuz](https://github.com/fuz-dev/fuz)
+> and [Fuz](https://github.com/ryanatkn/fuz)
 
 The template includes
 [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
@@ -86,7 +86,7 @@ with no further configuration.
 To learn how to swap it out for another deployment target, see
 [the SvelteKit adapter docs](https://kit.svelte.dev/docs#adapters).
 
-To make it your own, change `@fuz.dev/fuz_template` and `template.fuz.dev`
+To make it your own, change `@ryanatkn/fuz_template` and `template.fuz.dev`
 to your project name in the following files:
 
 - [`package.json`](package.json)
@@ -146,7 +146,7 @@ gro deploy
 [TypeScript](https://github.com/microsoft/TypeScript) ∙
 [ESLint](https://github.com/eslint/eslint) ∙
 [Prettier](https://github.com/prettier/prettier) ∙
-[Fuz](https://github.com/fuz-dev/fuz) ∙
+[Fuz](https://github.com/ryanatkn/fuz) ∙
 [Gro](https://github.com/ryanatkn/gro) ∙
 [@ryanatkn/belt](https://github.com/ryanatkn/belt) ∙
 [Zod](https://github.com/colinhacks/zod) ∙
