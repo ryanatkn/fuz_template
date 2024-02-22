@@ -11,6 +11,6 @@ export default {
 		alias: {$routes: 'src/routes', $fixtures: 'src/fixtures'},
 		// This `paths` config is for non-root domains like the default GitHub Pages
 		// `username.github.io/repo` where `repo` is `base` - delete this comment for top-level domains.
-		// paths: import.meta.env.DEV ? undefined : {base: '/template'},
+		// paths: process.env.NODE_ENV === 'development' ? undefined : {base: '/template'},
 	},
 };
