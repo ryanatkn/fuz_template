@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Alert from '@ryanatkn/fuz/Alert.svelte';
+	import Card from '@ryanatkn/fuz/Card.svelte';
 	import {base} from '$app/paths';
 
 	import Mreows from '$routes/Mreows.svelte';
@@ -12,11 +12,12 @@
 		<header class="prose">
 			<h1>fuz_template</h1>
 		</header>
-		<Alert>
+		<Card href="{base}/about">
 			<span slot="icon"
 				>{#if mreows}{mreows[0].icon}{:else}✨{/if}</span
-			><a class="chip" href="{base}/about">about</a>
-		</Alert>
+			>
+			about
+		</Card>
 	</section>
 	<Mreows bind:mreows />
 </main>
