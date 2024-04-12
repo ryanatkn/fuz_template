@@ -1,3 +1,5 @@
+[<img src="/static/favicon.png" align="right" width="192" height="192">](https://template.fuz.dev/)
+
 # @ryanatkn/fuz_template ❄
 
 > a static web app and Node library template with
