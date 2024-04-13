@@ -8,9 +8,9 @@
 	let mreows: Array<{icon: string}> | undefined = $state([random_item(items), items[4]]);
 </script>
 
-<main class="prose">
+<main>
 	<section class="box">
-		<header class="prose">
+		<header>
 			<h1 class="mt_xl2">fuz_template</h1>
 		</header>
 		<Card href="{base}/about" icon={mreows ? mreows[0].icon : '✨'}>about</Card>
