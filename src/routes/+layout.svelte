@@ -10,7 +10,13 @@
 
 	import Settings from '$routes/Settings.svelte';
 
-	let show_settings = false;
+	interface Props {
+		children: Snippet;
+	}
+ 
+	const {children}: Props = $props();
+
+	let show_settings = $state(false);
 </script>
 
 <svelte:head>
@@ -43,13 +49,14 @@
 />
 
 <Themed>
-	<slot />
-	<Contextmenu {contextmenu} />
-	{#if show_settings}
-		<Dialog on:close={() => (show_settings = false)}>
-			<div class="pane">
-				<Settings />
-			</div>
-		</Dialog>
-	{/if}
+	<Contextmenu_Root>
+		{@render children()}
+		{#if show_settings}
+			<Dialog onclose={() => (show_settings = false)}>
+				<div class="pane">
+					<Settings />
+				</div>
+			</Dialog>
+		{/if}
+	</Contextmenu_Root>
 </Themed>
