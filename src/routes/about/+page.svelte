@@ -17,7 +17,7 @@
 			<header class="box">
 				<h1 class="mt_xl2">fuz_template</h1>
 			</header>
-			<div style:--font_size="var(--size_xl)">
+			<div style:--size="var(--size_xl)">
 				<Breadcrumb>{package_json.icon}</Breadcrumb>
 			</div>
 		</section>
