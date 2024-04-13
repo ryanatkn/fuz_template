@@ -3,12 +3,16 @@
 
 	// TODO what should the name/scope of this component be?
 
-	export let x: number;
-	export let y: number;
-	export let scale: number;
+	interface Props {
+		x: number;
+		y: number;
+		scale: number;
+	}
 
-	let scale_ready = false;
-	$: final_scale = scale_ready ? scale : 0;
+	const {x, y, scale}: Props = $props();
+
+	let scale_ready = $state(false);
+	const final_scale = $derived(scale_ready ? scale : 0);
 
 	// TODO what's a better way to do this? problem is using Svelte's `in:scale`
 	// makes things go haywire in some cases because we're also setting `transform`

@@ -1,10 +1,4 @@
-<script lang="ts">
-	import {random_item} from '@ryanatkn/belt/random.js';
-
-	import Positioned from '$routes/Positioned.svelte';
-
-	// don't use this component, it's just a hacky demo
-
+<script context="module" lang="ts">
 	interface Mreow {
 		icon: string;
 	}
@@ -29,8 +23,20 @@
 		{icon: '🐸'},
 		{icon: '🐲'},
 	];
+</script>
 
-	export let mreows: Mreow[] = [random_item(items), items[4]];
+<script lang="ts">
+	import {random_item} from '@ryanatkn/belt/random.js';
+
+	import Positioned from '$routes/Positioned.svelte';
+
+	// don't use this component, it's just a hacky demo
+
+	interface Props {
+		mreows?: Mreow[];
+	}
+
+	let {mreows = $bindable([random_item(items), items[4]])}: Props = $props();
 
 	const mreow = (): void => {
 		mreows = [{...random_item(items)}].concat(mreows);
@@ -39,9 +45,6 @@
 	const COLUMN_COUNT = 5;
 	const PADDING = 40;
 	const ICON_SCALE = 0.8;
-
-	let layout: LayoutItem[];
-	$: layout = clientWidth === undefined ? [] : to_layout(mreows.slice(1), clientWidth);
 
 	interface LayoutItem {
 		index: number;
@@ -75,7 +78,11 @@
 		});
 	};
 
-	let clientWidth: number;
+	let clientWidth: number | undefined = $state();
+
+	const layout: LayoutItem[] = $derived(
+		clientWidth === undefined ? [] : to_layout(mreows.slice(1), clientWidth),
+	);
 </script>
 
 <button on:click={mreow}> mreow </button>

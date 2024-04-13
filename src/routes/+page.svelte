@@ -4,20 +4,15 @@
 
 	import Mreows from '$routes/Mreows.svelte';
 
-	let mreows: Array<{icon: string}> | undefined;
+	let mreows: Array<{icon: string}> | undefined = $state();
 </script>
 
 <main class="prose">
 	<section class="box">
 		<header class="prose">
-			<h1>fuz_template</h1>
+			<h1 class="mt_xl">fuz_template</h1>
 		</header>
-		<Card href="{base}/about">
-			<span slot="icon"
-				>{#if mreows}{mreows[0].icon}{:else}✨{/if}</span
-			>
-			about
-		</Card>
+		<Card href="{base}/about" icon={mreows ? mreows[0].icon : '✨'}>about</Card>
 	</section>
 	<Mreows bind:mreows />
 </main>

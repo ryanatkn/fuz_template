@@ -5,15 +5,16 @@
 
 	import Themed from '@ryanatkn/fuz/Themed.svelte';
 	import Dialog from '@ryanatkn/fuz/Dialog.svelte';
-	import Contextmenu from '@ryanatkn/fuz/Contextmenu.svelte';
+	import Contextmenu_Root from '@ryanatkn/fuz/Contextmenu_Root.svelte';
 	import {contextmenu_action} from '@ryanatkn/fuz/contextmenu.svelte.js';
+	import type {Snippet} from 'svelte';
 
 	import Settings from '$routes/Settings.svelte';
 
 	interface Props {
 		children: Snippet;
 	}
- 
+
 	const {children}: Props = $props();
 
 	let show_settings = $state(false);
