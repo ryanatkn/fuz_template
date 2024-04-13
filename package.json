@@ -23,7 +23,7 @@
   "devDependencies": {
     "@ryanatkn/belt": "^0.20.10",
     "@ryanatkn/eslint-config": "^0.1.2",
-    "@ryanatkn/fuz": "^0.93.3",
+    "@ryanatkn/fuz": "^0.94.0",
     "@ryanatkn/gro": "^0.115.0",
     "@sveltejs/adapter-static": "^3.0.1",
     "@sveltejs/kit": "^2.5.5",
