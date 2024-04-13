@@ -6,11 +6,9 @@
 	import Themed from '@ryanatkn/fuz/Themed.svelte';
 	import Dialog from '@ryanatkn/fuz/Dialog.svelte';
 	import Contextmenu from '@ryanatkn/fuz/Contextmenu.svelte';
-	import {create_contextmenu} from '@ryanatkn/fuz/contextmenu.js';
+	import {contextmenu_action} from '@ryanatkn/fuz/contextmenu.svelte.js';
 
 	import Settings from '$routes/Settings.svelte';
-
-	const contextmenu = create_contextmenu();
 
 	let show_settings = false;
 </script>
@@ -20,19 +18,25 @@
 </svelte:head>
 
 <svelte:body
-	use:contextmenu.action={[
+	use:contextmenu_action={[
 		{
-			content: 'Settings',
-			icon: '?',
-			run: () => {
-				show_settings = true;
+			snippet: 'text',
+			props: {
+				content: 'Settings',
+				icon: '?',
+				run: () => {
+					show_settings = true;
+				},
 			},
 		},
 		{
-			content: 'Reload',
-			icon: '⟳',
-			run: () => {
-				location.reload();
+			snippet: 'text',
+			props: {
+				content: 'Reload',
+				icon: '⟳',
+				run: () => {
+					location.reload();
+				},
 			},
 		},
 	]}
