@@ -1,16 +1,17 @@
 <script lang="ts">
 	import Card from '@ryanatkn/fuz/Card.svelte';
 	import {base} from '$app/paths';
+	import {random_item} from '@ryanatkn/belt/random.js';
 
-	import Mreows from '$routes/Mreows.svelte';
+	import Mreows, {items} from '$routes/Mreows.svelte';
 
-	let mreows: Array<{icon: string}> | undefined = $state();
+	let mreows: Array<{icon: string}> | undefined = $state([random_item(items), items[4]]);
 </script>
 
 <main class="prose">
 	<section class="box">
 		<header class="prose">
-			<h1 class="mt_xl">fuz_template</h1>
+			<h1 class="mt_xl2">fuz_template</h1>
 		</header>
 		<Card href="{base}/about" icon={mreows ? mreows[0].icon : '✨'}>about</Card>
 	</section>

@@ -1,9 +1,9 @@
 <script context="module" lang="ts">
-	interface Mreow {
+	export interface Mreow {
 		icon: string;
 	}
 
-	const items: Mreow[] = [
+	export const items: Mreow[] = [
 		{icon: '🐵'},
 		{icon: '🐶'},
 		{icon: '🐺'},
@@ -36,7 +36,7 @@
 		mreows?: Mreow[];
 	}
 
-	let {mreows = $bindable([random_item(items), items[4]])}: Props = $props();
+	let {mreows = $bindable([])}: Props = $props();
 
 	const mreow = (): void => {
 		mreows = [{...random_item(items)}].concat(mreows);
