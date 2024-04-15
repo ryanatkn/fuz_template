@@ -17,6 +17,10 @@
 
 - [SvelteKit](https://github.com/sveltejs/kit) with [Svelte](https://github.com/sveltejs/svelte) and
   [Vite](https://github.com/vitejs/vite)
+- [Moss](https://github.com/ryanatkn/moss): CSS framework and design system based on style variables
+- [Fuz](https://github.com/ryanatkn/fuz):
+  - libraries with styles, themes, and Svelte components - [fuz.dev](https://www.fuz.dev/)
+  - to remove, `npm uninstall @ryanatkn/fuz` and delete the imports
 - [Gro](https://github.com/ryanatkn/gro):
   - extends [SvelteKit](https://github.com/sveltejs/kit) and
     [Vite](https://github.com/vitejs/vite)
@@ -32,9 +36,6 @@
     [codegen](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/gen.md),
     and [other things](https://github.com/ryanatkn/gro/tree/main/src/lib/docs)
   - optional [utilities library `@ryanatkn/belt`](https://github.com/ryanatkn/belt)
-- [Fuz](https://github.com/ryanatkn/fuz):
-  - libraries with styles, themes, and Svelte components - [fuz.dev](https://www.fuz.dev/)
-  - to remove, `npm uninstall @ryanatkn/fuz` and delete the imports
 
 ## usage
 
