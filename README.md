@@ -35,7 +35,7 @@
     with a bunch of [builtins](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/tasks.md),
     [codegen](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/gen.md),
     and [other things](https://github.com/ryanatkn/gro/tree/main/src/lib/docs)
-  - optional [utilities library `@ryanatkn/belt`](https://github.com/ryanatkn/belt)
+- optional [utilities library `@ryanatkn/belt`](https://github.com/ryanatkn/belt)
 
 ## usage
 
