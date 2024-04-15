@@ -27,6 +27,7 @@ export const package_json = {
 		'@ryanatkn/eslint-config': '^0.1.2',
 		'@ryanatkn/fuz': '^0.94.0',
 		'@ryanatkn/gro': '^0.115.0',
+		'@ryanatkn/moss': '^0.1.0',
 		'@sveltejs/adapter-static': '^3.0.1',
 		'@sveltejs/kit': '^2.5.5',
 		'@sveltejs/vite-plugin-svelte': '^3.1.0',
