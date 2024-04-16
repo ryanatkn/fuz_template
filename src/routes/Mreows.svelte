@@ -104,4 +104,14 @@
 	:global(body) {
 		overflow-x: hidden;
 	}
+	button {
+		font-size: var(--size_xl3);
+		font-weight: 300;
+	}
+	button:hover {
+		font-weight: 500;
+	}
+	button:active {
+		font-weight: 900;
+	}
 </style>
