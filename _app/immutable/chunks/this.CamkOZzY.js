@@ -1,1 +1,0 @@
-import{e as h,r as k,u as q,q as x,S as T}from"./runtime.Bw_2Y3Ds.js";function S(f,r){var s;var a=f&&((s=f[T])==null?void 0:s.t);return f===r||a===r}function c(f,r,a,s){h(()=>{var u,i;return k(()=>{u=i,i=(s==null?void 0:s())||[],q(()=>{f!==a(...i)&&(r(f,...i),u&&S(a(...u),f)&&r(null,...u))})}),()=>{x(()=>{i&&S(a(...i),f)&&r(null,...i)})}})}export{c as b};
