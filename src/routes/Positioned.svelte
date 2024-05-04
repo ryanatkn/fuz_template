@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {onMount} from 'svelte';
+	import {onMount, type Snippet} from 'svelte';
 
 	// TODO what should the name/scope of this component be?
 
@@ -7,9 +7,10 @@
 		x: number;
 		y: number;
 		scale: number;
+		children: Snippet;
 	}
 
-	const {x, y, scale}: Props = $props();
+	const {x, y, scale, children}: Props = $props();
 
 	let scale_ready = $state(false);
 	const final_scale = $derived(scale_ready ? scale : 0);
@@ -25,7 +26,7 @@
 	class="item"
 	style:transform="translate3d({x}px, {y}px, 0px) scale3d({final_scale}, {final_scale}, {final_scale})"
 >
-	<slot />
+	{@render children()}
 </div>
 
 <style>

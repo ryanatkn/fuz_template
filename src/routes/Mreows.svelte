@@ -85,7 +85,7 @@
 	);
 </script>
 
-<button on:click={mreow}> mreow </button>
+<button onclick={mreow}> mreow </button>
 <div class="mreows" bind:clientWidth>
 	{#each layout as item, i (item.mreow)}<Positioned
 			x={item.x}
@@ -107,6 +107,7 @@
 	button {
 		font-size: var(--size_xl3);
 		font-weight: 300;
+		width: 20rem;
 	}
 	button:hover {
 		font-weight: 500;

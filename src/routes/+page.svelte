@@ -13,11 +13,7 @@
 		<header>
 			<h1 class="mt_xl2">fuz_template</h1>
 		</header>
-		<div class="shadow_outset_xs radius_lg pb_xs3 px_xs4">
-			<div class="shadow_outset_xs radius_lg pt_sm px_md pb_lg">
-				<Card href="{base}/about" icon={mreows ? mreows[0].icon : '✨'}>about</Card>
-			</div>
-		</div>
+		<Card href="{base}/about" icon={mreows ? mreows[0].icon : '✨'}>about</Card>
 	</section>
 	<Mreows bind:mreows />
 </main>
