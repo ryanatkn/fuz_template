@@ -21,7 +21,7 @@
 		</div>
 	</section>
 	<section class="box w_100 mb_lg">
-		<div class="panel p_md width_md">
+		<div class="panel p_lg width_md">
 			<Package_Detail {pkg} />
 		</div>
 	</section>
