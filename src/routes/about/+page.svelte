@@ -12,16 +12,14 @@
 </script>
 
 <main class="width_md">
-	<div class="prose">
-		<section class="box">
-			<header class="box">
-				<h1 class="mt_xl2">fuz_template</h1>
-			</header>
-			<div style:--size="var(--size_xl)">
-				<Breadcrumb>{package_json.icon}</Breadcrumb>
-			</div>
-		</section>
-	</div>
+	<section class="box">
+		<header class="box">
+			<h1 class="mt_xl2">fuz_template</h1>
+		</header>
+		<div style:--size="var(--size_xl)">
+			<Breadcrumb>{package_json.icon}</Breadcrumb>
+		</div>
+	</section>
 	<section class="box w_100 mb_lg">
 		<div class="panel p_md width_md">
 			<Package_Detail {pkg} />
