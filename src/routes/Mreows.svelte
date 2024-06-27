@@ -1,27 +1,27 @@
 <script context="module" lang="ts">
 	export interface Mreow {
-		icon: string;
+		glyph: string;
 	}
 
 	export const items: Mreow[] = [
-		{icon: '🐵'},
-		{icon: '🐶'},
-		{icon: '🐺'},
-		{icon: '🦊'},
-		{icon: '🐱'},
-		{icon: '🦁'},
-		{icon: '🐯'},
-		{icon: '🐴'},
-		{icon: '🦄'},
-		{icon: '🦓'},
-		{icon: '🐮'},
-		{icon: '🐭'},
-		{icon: '🐹'},
-		{icon: '🐰'},
-		{icon: '🐻'},
-		{icon: '🐼'},
-		{icon: '🐸'},
-		{icon: '🐲'},
+		{glyph: '🐵'},
+		{glyph: '🐶'},
+		{glyph: '🐺'},
+		{glyph: '🦊'},
+		{glyph: '🐱'},
+		{glyph: '🦁'},
+		{glyph: '🐯'},
+		{glyph: '🐴'},
+		{glyph: '🦄'},
+		{glyph: '🦓'},
+		{glyph: '🐮'},
+		{glyph: '🐭'},
+		{glyph: '🐹'},
+		{glyph: '🐰'},
+		{glyph: '🐻'},
+		{glyph: '🐼'},
+		{glyph: '🐸'},
+		{glyph: '🐲'},
 	];
 </script>
 
@@ -91,7 +91,7 @@
 			x={item.x}
 			y={item.y}
 			scale={item.scale + Math.cos(i) / 2.5}
-			><span style:font-size="{item.fontSize}px">{item.mreow.icon}</span></Positioned
+			><span style:font-size="{item.fontSize}px">{item.mreow.glyph}</span></Positioned
 		>{/each}
 </div>
 

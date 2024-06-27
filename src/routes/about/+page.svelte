@@ -17,7 +17,7 @@
 			<h1 class="mt_xl2">fuz_template</h1>
 		</header>
 		<div style:--size="var(--size_xl)">
-			<Breadcrumb>{package_json.icon}</Breadcrumb>
+			<Breadcrumb>{package_json.glyph}</Breadcrumb>
 		</div>
 	</section>
 	<section class="box w_100 mb_lg">
@@ -27,7 +27,7 @@
 	</section>
 	<section class="box">
 		<Library_Footer {pkg} root_url="https://www.fuz.dev/">
-			<div class="mb_xl"><Breadcrumb>{package_json.icon}</Breadcrumb></div>
+			<div class="mb_xl"><Breadcrumb>{package_json.glyph}</Breadcrumb></div>
 		</Library_Footer>
 	</section>
 </main>

@@ -5,7 +5,7 @@
 
 	import Mreows, {items} from '$routes/Mreows.svelte';
 
-	let mreows: Array<{icon: string}> | undefined = $state([random_item(items), items[4]]);
+	let mreows: Array<{glyph: string}> | undefined = $state([random_item(items), items[4]]);
 </script>
 
 <main>
@@ -13,7 +13,7 @@
 		<header>
 			<h1 class="mt_xl2">fuz_template</h1>
 		</header>
-		<Card href="{base}/about" icon={mreows ? mreows[0].icon : '✨'}>about</Card>
+		<Card href="{base}/about" icon={mreows ? mreows[0].glyph : '✨'}>about</Card>
 	</section>
 	<Mreows bind:mreows />
 </main>
