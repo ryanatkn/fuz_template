@@ -21,7 +21,6 @@ export const package_json = {
 		test: 'gro test',
 		deploy: 'gro deploy',
 	},
-	files: ['dist'],
 	devDependencies: {
 		'@ryanatkn/belt': '^0.23.0',
 		'@ryanatkn/eslint-config': '^0.1.3',
@@ -52,6 +51,8 @@ export const package_json = {
 		bracketSpacing: false,
 		overrides: [{files: 'package.json', options: {useTabs: false}}],
 	},
+	sideEffects: ['**/*.css'],
+	files: ['dist'],
 } satisfies Package_Json;
 
 export const src_json = {name: '@ryanatkn/fuz_template', version: '0.0.1'} satisfies Src_Json;
