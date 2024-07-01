@@ -9,11 +9,11 @@ export const package_json = {
 	description:
 		'a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro',
 	glyph: '❄',
+	logo: 'logo.svg',
+	logo_alt: 'a friendly pixelated spider facing you',
 	public: true,
 	homepage: 'https://template.fuz.dev/',
 	repository: 'https://github.com/ryanatkn/fuz_template',
-	type: 'module',
-	engines: {node: '>=20.12'},
 	scripts: {
 		start: 'gro dev',
 		dev: 'gro dev',
@@ -21,6 +21,8 @@ export const package_json = {
 		test: 'gro test',
 		deploy: 'gro deploy',
 	},
+	type: 'module',
+	engines: {node: '>=20.12'},
 	devDependencies: {
 		'@ryanatkn/belt': '^0.23.0',
 		'@ryanatkn/eslint-config': '^0.1.3',
