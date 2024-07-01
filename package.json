@@ -4,7 +4,7 @@
   "description": "a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro",
   "glyph": "❄",
   "logo": "logo.svg",
-  "logo_alt": "a friendly purple spider facing you",
+  "logo_alt": "a friendly pixelated spider facing you",
   "public": true,
   "homepage": "https://template.fuz.dev/",
   "repository": "https://github.com/ryanatkn/fuz_template",
