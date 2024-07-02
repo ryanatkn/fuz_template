@@ -30,7 +30,7 @@ export const package_json = {
 		'@ryanatkn/gro': '^0.128.0',
 		'@ryanatkn/moss': '^0.6.2',
 		'@sveltejs/adapter-static': '^3.0.2',
-		'@sveltejs/kit': '^2.5.17',
+		'@sveltejs/kit': '^2.5.18',
 		'@sveltejs/vite-plugin-svelte': '^3.1.1',
 		'@typescript-eslint/eslint-plugin': '^7.14.1',
 		'@typescript-eslint/parser': '^7.14.1',
