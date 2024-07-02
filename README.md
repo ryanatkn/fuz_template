@@ -1,4 +1,4 @@
-[<img src="/static/favicon.png" align="right" width="192" height="192">](https://template.fuz.dev/)
+[<img src="/static/logo.svg" alt="a friendly pixelated spider facing you" align="right" width="192" height="192">](https://template.fuz.dev/)
 
 # @ryanatkn/fuz_template ❄
 
