@@ -26,9 +26,7 @@
 		</div>
 	</section>
 	<section class="box">
-		<Library_Footer {pkg} root_url="https://www.fuz.dev/">
-			<div class="mb_xl"><Breadcrumb>{package_json.glyph}</Breadcrumb></div>
-		</Library_Footer>
+		<Library_Footer {pkg} root_url="https://www.fuz.dev/" />
 	</section>
 </main>
 
