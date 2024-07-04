@@ -42,10 +42,6 @@
     "typescript": "^5.5.2",
     "uvu": "^0.5.6"
   },
-  "eslintConfig": {
-    "root": true,
-    "extends": "@ryanatkn"
-  },
   "prettier": {
     "plugins": [
       "prettier-plugin-svelte"
