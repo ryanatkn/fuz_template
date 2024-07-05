@@ -85,7 +85,7 @@
 	);
 </script>
 
-<button onclick={mreow}> mreow </button>
+<button type="button" onclick={mreow}> mreow </button>
 <div class="mreows" bind:clientWidth>
 	{#each layout as item, i (item.mreow)}<Positioned
 			x={item.x}
