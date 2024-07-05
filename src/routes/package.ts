@@ -27,7 +27,7 @@ export const package_json = {
 	engines: {node: '>=20.12'},
 	devDependencies: {
 		'@ryanatkn/belt': '^0.24.1',
-		'@ryanatkn/eslint-config': '^0.2.0',
+		'@ryanatkn/eslint-config': '^0.3.0',
 		'@ryanatkn/fuz': '^0.107.1',
 		'@ryanatkn/gro': '^0.129.0',
 		'@ryanatkn/moss': '^0.6.3',
