@@ -28,7 +28,7 @@ export const package_json = {
 	devDependencies: {
 		'@ryanatkn/belt': '^0.24.2',
 		'@ryanatkn/eslint-config': '^0.4.0',
-		'@ryanatkn/fuz': '^0.108.2',
+		'@ryanatkn/fuz': '^0.108.3',
 		'@ryanatkn/gro': '^0.129.1',
 		'@ryanatkn/moss': '^0.7.0',
 		'@sveltejs/adapter-static': '^3.0.2',
