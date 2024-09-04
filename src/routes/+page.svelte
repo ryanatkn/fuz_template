@@ -15,7 +15,7 @@
 			<Fuzling size="var(--icon_size_xl)" />
 			<h1 class="mt_xl2">fuz_template</h1>
 		</header>
-		<Card href="{base}/about" icon={mreows ? mreows[0].glyph : '✨'}>about</Card>
+		<Card href="{base}/about" icon={''}>about</Card>
 	</section>
 	<Mreows bind:mreows />
 </main>

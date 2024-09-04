@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script module lang="ts">
 	export interface Mreow {
 		glyph: string;
 	}
@@ -85,7 +85,10 @@
 	);
 </script>
 
-<button type="button" onclick={mreow}> mreow </button>
+<button type="button" class="row py_md px_xl" onclick={mreow}
+	><div class="size_xl5">{mreows.length ? mreows[0].glyph : '✨'}</div>
+	<div class="mreow">mreow</div></button
+>
 <div class="mreows" bind:clientWidth>
 	{#each layout as item, i (item.mreow)}<Positioned
 			x={item.x}
@@ -104,15 +107,15 @@
 	:global(body) {
 		overflow-x: hidden;
 	}
-	button {
+	.mreow {
 		font-size: var(--size_xl3);
 		font-weight: 300;
-		width: 20rem;
+		width: 150px;
 	}
-	button:hover {
+	button:hover .mreow {
 		font-weight: 500;
 	}
-	button:active {
+	button:active .mreow {
 		font-weight: 900;
 	}
 </style>
