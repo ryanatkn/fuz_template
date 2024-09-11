@@ -102,6 +102,7 @@
 	.mreows {
 		position: relative;
 		width: 100%;
+		margin-top: 4rem;
 	}
 	/* horrible hack but it's fine, this component shouldn't be used */
 	:global(body) {
