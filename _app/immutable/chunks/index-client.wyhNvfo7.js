@@ -1,0 +1,1 @@
+import{d as o,l as e,g as c,u}from"./runtime.CirxRmYf.js";function a(n){o===null&&e(),o.l!==null?l(o).m.push(n):c(()=>{const t=u(n);if(typeof t=="function")return t})}function s(n){o===null&&e(),a(()=>()=>u(n))}function l(n){var t=n.l;return t.u??(t.u={a:[],b:[],m:[]})}export{s as a,a as o};
