@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Fuzling from '@ryanatkn/fuz/Fuzling.svelte';
+	import Svg from '@ryanatkn/fuz/Svg.svelte';
+	import {fuz_logo} from '@ryanatkn/fuz/logos.js';
 	import Card from '@ryanatkn/fuz/Card.svelte';
 	import {base} from '$app/paths';
 	import {random_item} from '@ryanatkn/belt/random.js';
@@ -12,7 +13,7 @@
 <main>
 	<section class="box">
 		<header class="box pt_xl">
-			<Fuzling size="var(--icon_size_xl)" />
+			<Svg data={fuz_logo} size="var(--icon_size_xl)" />
 			<h1 class="mt_xl2">fuz_template</h1>
 		</header>
 		<Card href="{base}/about" icon={''}>about</Card>

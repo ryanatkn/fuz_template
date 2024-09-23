@@ -4,7 +4,8 @@
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
 	import Community_Links_Panel from '@ryanatkn/fuz/Community_Links_Panel.svelte';
 	import Breadcrumb from '@ryanatkn/fuz/Breadcrumb.svelte';
-	import Fuzling from '@ryanatkn/fuz/Fuzling.svelte';
+	import Svg from '@ryanatkn/fuz/Svg.svelte';
+	import {fuz_logo} from '@ryanatkn/fuz/logos.js';
 
 	import {package_json, src_json} from '$routes/package.js';
 
@@ -16,7 +17,7 @@
 <main class="width_md">
 	<section class="box">
 		<header class="box pt_xl">
-			<Fuzling size="var(--icon_size_xl)" />
+			<Svg data={fuz_logo} size="var(--icon_size_xl)" />
 			<h1 class="mt_xl2">fuz_template</h1>
 		</header>
 		<div style:--size="var(--size_xl)">
