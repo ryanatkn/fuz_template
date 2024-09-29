@@ -24,12 +24,12 @@
 			<Breadcrumb>{package_json.glyph}</Breadcrumb>
 		</div>
 	</section>
-	<Community_Links_Panel />
 	<section class="box w_100 mb_lg">
 		<div class="panel p_lg width_md">
 			<Package_Detail {pkg} />
 		</div>
 	</section>
+	<Community_Links_Panel />
 	<section class="box">
 		<Library_Footer {pkg} root_url="https://www.fuz.dev/" />
 	</section>
