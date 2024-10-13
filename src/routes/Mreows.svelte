@@ -54,26 +54,26 @@
 		row: number;
 		column: number;
 		mreow: Mreow;
-		fontSize: number;
+		font_size: number;
 	}
 
 	// TODO tweened x/y?
 	const create_layout = (mreows: Mreow[], width: number): LayoutItem[] => {
-		const columnWidth = Math.floor((width - PADDING * 2) / COLUMN_COUNT);
-		const ROW_HEIGHT = columnWidth;
+		const column_width = Math.floor((width - PADDING * 2) / COLUMN_COUNT);
+		const ROW_HEIGHT = column_width;
 		return mreows.map((mreow, i): LayoutItem => {
 			const row = Math.floor(i / COLUMN_COUNT);
 			const flowsLeft = row % 2 === 1;
 			const column = flowsLeft ? COLUMN_COUNT - 1 - (i % COLUMN_COUNT) : i % COLUMN_COUNT;
 			return {
 				index: i,
-				x: column * columnWidth + PADDING,
+				x: column * column_width + PADDING,
 				y: row * ROW_HEIGHT,
 				row,
 				column,
 				scale: 1,
 				mreow,
-				fontSize: columnWidth * ICON_SCALE,
+				font_size: column_width * ICON_SCALE,
 			};
 		});
 	};
@@ -94,7 +94,7 @@
 			x={item.x}
 			y={item.y}
 			scale={item.scale + Math.cos(i) / 2.5}
-			><span style:font-size="{item.fontSize}px">{item.mreow.glyph}</span></Positioned
+			><span style:font-size="{item.font_size}px">{item.mreow.glyph}</span></Positioned
 		>{/each}
 </div>
 
