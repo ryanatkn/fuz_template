@@ -58,7 +58,7 @@
 	}
 
 	// TODO tweened x/y?
-	const to_layout = (mreows: Mreow[], width: number): LayoutItem[] => {
+	const create_layout = (mreows: Mreow[], width: number): LayoutItem[] => {
 		const columnWidth = Math.floor((width - PADDING * 2) / COLUMN_COUNT);
 		const ROW_HEIGHT = columnWidth;
 		return mreows.map((mreow, i): LayoutItem => {
@@ -81,7 +81,7 @@
 	let clientWidth: number | undefined = $state();
 
 	const layout: LayoutItem[] = $derived(
-		clientWidth === undefined ? [] : to_layout(mreows.slice(1), clientWidth),
+		clientWidth === undefined ? [] : create_layout(mreows.slice(1), clientWidth),
 	);
 </script>
 
