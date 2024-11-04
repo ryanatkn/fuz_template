@@ -59,7 +59,7 @@ To disable the feature, edit [package.json](/package.json):
 + "private": true, // if you want to disable npm publishing, add this
 ```
 
-> [Windows will not be suported supported](https://github.com/ryanatkn/fuz_template/issues/4)
+> [Windows will not be suported](https://github.com/ryanatkn/fuz_template/issues/4)
 > because I chose Bash instead - [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) works
 
 If you're logged into GitHub, click "Use this template" above or clone with
