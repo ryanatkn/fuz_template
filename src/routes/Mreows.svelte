@@ -3,7 +3,7 @@
 		glyph: string;
 	}
 
-	export const items: Mreow[] = [
+	export const items: Array<Mreow> = [
 		{glyph: '🐵'},
 		{glyph: '🐶'},
 		{glyph: '🐺'},
@@ -33,7 +33,7 @@
 	// don't use this component, it's just a hacky demo
 
 	interface Props {
-		mreows?: Mreow[];
+		mreows?: Array<Mreow>;
 	}
 
 	let {mreows = $bindable([])}: Props = $props();
@@ -58,7 +58,7 @@
 	}
 
 	// TODO tweened x/y?
-	const create_layout = (mreows: Mreow[], width: number): LayoutItem[] => {
+	const create_layout = (mreows: Array<Mreow>, width: number): Array<LayoutItem> => {
 		const column_width = Math.floor((width - PADDING * 2) / COLUMN_COUNT);
 		const ROW_HEIGHT = column_width;
 		return mreows.map((mreow, i): LayoutItem => {
@@ -80,7 +80,7 @@
 
 	let clientWidth: number | undefined = $state();
 
-	const layout: LayoutItem[] = $derived(
+	const layout: Array<LayoutItem> = $derived(
 		clientWidth === undefined ? [] : create_layout(mreows.slice(1), clientWidth),
 	);
 </script>
