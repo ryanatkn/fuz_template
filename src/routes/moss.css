@@ -186,7 +186,6 @@ a.chip {
 	width: 100%;
 }
 
-/* TODO rename these? use to be columns, maybe should be? */
 .width_md {
 	width: 100%;
 	max-width: var(--width_md);
