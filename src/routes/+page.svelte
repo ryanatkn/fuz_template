@@ -16,7 +16,7 @@
 			<Svg data={fuz_logo} size="var(--icon_size_xl)" />
 			<h1 class="mt_xl2">fuz_template</h1>
 		</header>
-		<Card href="{base}/about" icon={''}>about</Card>
+		<Card href="{base}/about" icon="">about</Card>
 	</section>
 	<Mreows bind:mreows />
 </main>
