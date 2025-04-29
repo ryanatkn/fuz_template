@@ -8,8 +8,8 @@
 > [SvelteKit](https://github.com/sveltejs/kit),
 > [Vite](https://github.com/vitejs/vite),
 > [esbuild](https://github.com/evanw/esbuild),
-> [Fuz](https://github.com/ryanatkn/fuz),
-> and [Gro](https://github.com/ryanatkn/gro)
+> [Gro](https://github.com/ryanatkn/gro),
+> and [Fuz](https://github.com/ryanatkn/fuz)
 
 [**template.fuz.dev**](https://template.fuz.dev/)
 
