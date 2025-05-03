@@ -20,7 +20,7 @@
 			<Svg data={fuz_logo} size="var(--icon_size_xl)" />
 			<h1 class="mt_xl2">fuz_template</h1>
 		</header>
-		<div style:--size="var(--size_xl)">
+		<div style:--font_size="var(--font_size_xl)">
 			<Breadcrumb>{package_json.glyph}</Breadcrumb>
 		</div>
 	</section>

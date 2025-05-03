@@ -16,7 +16,7 @@
 
 .width_md {
 	width: 100%;
-	max-width: var(--width_md);
+	max-width: var(--distance_md);
 }
 
 .selectable {
@@ -55,12 +55,12 @@
 			var(--shadow_bottom_md)
 			color-mix(in hsl, var(--shadow_color) var(--shadow_alpha_3), transparent)
 	);
-	border-radius: var(--radius_xs);
+	border-radius: var(--border_radius_xs);
 }
 
 /* A panel is a box embedded into the page, useful for visually isolating content. */
 .panel {
-	border-radius: var(--radius_xs);
+	border-radius: var(--border_radius_xs);
 	background-color: var(--panel_bg, var(--fg_1));
 }
 
@@ -149,19 +149,29 @@
 
 .chip {
 	font-weight: 600;
-	padding: var(--space_xs5) var(--space_sm); /* maybe different inside `p`? using `calc` with `--size`? */
+	padding-left: var(--space_xs);
+	padding-right: var(--space_xs);
 	background-color: var(--fg_1);
-	border-radius: var(--radius_xs);
+	border-radius: var(--border_radius_xs);
 }
 a.chip {
 	font-weight: 700;
 }
 
-.inline_flex {
-	display: inline-flex;
+.relative {
+	position: relative;
 }
-.flex {
+/** Same as `display: inline flow-root`. */
+.display_inline_block {
+	display: inline-block;
+}
+/** Same as `display: block flex`. */
+.display_flex {
 	display: flex;
+}
+/** Same as `display: inline flex`. */
+.display_inline_flex {
+	display: inline-flex;
 }
 .flex_1 {
 	flex: 1;
@@ -169,9 +179,9 @@ a.chip {
 .align_items_center {
 	align-items: center;
 }
-.size_xl5 {
-	font-size: var(--size_xl5);
-	--size: var(--size_xl5);
+.font_size_xl5 {
+	font-size: var(--font_size_xl5);
+	--font_size: var(--font_size_xl5);
 }
 .shadow_inset_xs {
 	box-shadow: var(--shadow_inset_xs)

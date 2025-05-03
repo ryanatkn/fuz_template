@@ -86,7 +86,7 @@
 </script>
 
 <button type="button" class="row py_md px_xl" onclick={mreow}
-	><div class="size_xl5">{mreows.length ? mreows[0].glyph : '✨'}</div>
+	><div class="font_size_xl5">{mreows.length ? mreows[0].glyph : '✨'}</div>
 	<div class="mreow">mreow</div></button
 >
 <div class="mreows" bind:clientWidth>
@@ -109,7 +109,7 @@
 		overflow-x: hidden;
 	}
 	.mreow {
-		font-size: var(--size_xl3);
+		font-size: var(--font_size_xl3);
 		font-weight: 300;
 		width: 150px;
 	}
