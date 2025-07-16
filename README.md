@@ -31,9 +31,9 @@
   - formatting with [Prettier](https://github.com/prettier/prettier)
   - linting with [ESLint](https://github.com/eslint/eslint)
     and [`@ryanatkn/eslint-config`](https://github.com/ryanatkn/eslint-config)
-  - also has [a task system](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/task.md)
-    with a bunch of [builtins](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/tasks.md),
-    [codegen](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/gen.md),
+  - also has [a task system](https://github.com/ryanatkn/gro/blob/main/src/docs/task.md)
+    with a bunch of [builtins](https://github.com/ryanatkn/gro/blob/main/src/docs/tasks.md),
+    [codegen](https://github.com/ryanatkn/gro/blob/main/src/docs/gen.md),
     and [other things](https://github.com/ryanatkn/gro/tree/main/src/lib/docs)
 - optional [utilities library `@ryanatkn/belt`](https://github.com/ryanatkn/belt)
 
@@ -47,7 +47,7 @@ for tasks like deploying and more.
 
 **⚠️ Important,** this template is designed for **public** open source projects.
 Its `package.json` has `"public": true` by default,
-which [tells Gro](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/gro_plugin_sveltekit_frontend.md#well_known_package_json)
+which [tells Gro](https://github.com/ryanatkn/gro/blob/main/src/docs/gro_plugin_sveltekit_app.md#well_known_package_json)
 to publish the `package.json` and a map of its `src/` directory
 to `static/.well-known/` during the build.
 This can leak sensitive information if you are not careful ⚠️
@@ -84,7 +84,7 @@ gro sync # called by `gro dev`, refreshes generated files and calls `svelte-kit 
 
 The template includes
 [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
-so it can [deploy](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/deploy.md)
+so it can [deploy](https://github.com/ryanatkn/gro/blob/main/src/docs/deploy.md)
 with no further configuration.
 To learn how to swap it out for another deployment target, see
 [the SvelteKit adapter docs](https://kit.svelte.dev/docs#adapters).
@@ -112,7 +112,7 @@ npm run build
 gro build
 ```
 
-See [Gro's build docs](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/build.md) for more.
+See [Gro's build docs](https://github.com/ryanatkn/gro/blob/main/src/docs/build.md) for more.
 
 ## test
 
@@ -126,11 +126,11 @@ gro test -- uvu --forwarded_args 'to uvu'
 
 See [uvu](https://github.com/lukeed/uvu),
 [`src/lib/example.test.ts`](src/lib/example.test.ts),
-and [Gro's test docs](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/test.md) for more.
+and [Gro's test docs](https://github.com/ryanatkn/gro/blob/main/src/docs/test.md) for more.
 
 ## deploy
 
-[Deploy](https://github.com/ryanatkn/gro/blob/main/src/lib/docs/deploy.md)
+[Deploy](https://github.com/ryanatkn/gro/blob/main/src/docs/deploy.md)
 (build, commit, and push) to the `deploy` branch, e.g. for GitHub Pages:
 
 ```bash
