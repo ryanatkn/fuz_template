@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Package_Detail from '@ryanatkn/fuz/Package_Detail.svelte';
-	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
+	import {parse_pkg} from '@ryanatkn/belt/pkg.js';
 	import Docs_Footer from '@ryanatkn/fuz/Docs_Footer.svelte';
 	import Community_Links_Panel from '@ryanatkn/fuz/Community_Links_Panel.svelte';
 	import Breadcrumb from '@ryanatkn/fuz/Breadcrumb.svelte';
@@ -9,7 +9,7 @@
 
 	import {package_json, src_json} from '$routes/package.js';
 
-	const pkg = parse_package_meta(package_json, src_json);
+	const pkg = parse_pkg(package_json, src_json);
 
 	// TODO standardize
 </script>
