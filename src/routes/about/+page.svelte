@@ -14,7 +14,7 @@
 	// TODO standardize
 </script>
 
-<main class="width_md">
+<main class="width_upto_md">
 	<section class="box">
 		<header class="box pt_xl">
 			<Svg data={fuz_logo} size="var(--icon_size_xl)" />
@@ -24,8 +24,8 @@
 			<Breadcrumb>{package_json.glyph}</Breadcrumb>
 		</div>
 	</section>
-	<section class="box w_100 mb_lg">
-		<div class="panel p_lg width_md">
+	<section class="box width_100 mb_lg">
+		<div class="panel p_lg width_upto_md">
 			<Package_Detail {pkg} />
 		</div>
 	</section>
