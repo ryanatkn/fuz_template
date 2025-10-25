@@ -3,14 +3,17 @@
 
 	// TODO what should the name/scope of this component be?
 
-	interface Props {
+	const {
+		x,
+		y,
+		scale,
+		children,
+	}: {
 		x: number;
 		y: number;
 		scale: number;
 		children: Snippet;
-	}
-
-	const {x, y, scale, children}: Props = $props();
+	} = $props();
 
 	let scale_ready = $state(false);
 	const final_scale = $derived(scale_ready ? scale : 0);

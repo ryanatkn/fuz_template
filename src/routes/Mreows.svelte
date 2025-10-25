@@ -32,11 +32,11 @@
 
 	// don't use this component, it's just a hacky demo
 
-	interface Props {
+	let {
+		mreows = $bindable([]),
+	}: {
 		mreows?: Array<Mreow>;
-	}
-
-	let {mreows = $bindable([])}: Props = $props();
+	} = $props();
 
 	const mreow = (): void => {
 		mreows = [{...random_item(items)}].concat(mreows);
