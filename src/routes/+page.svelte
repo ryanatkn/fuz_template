@@ -9,7 +9,7 @@
 
 	import Mreows, {items} from '$routes/Mreows.svelte';
 
-	let mreows: Array<{glyph: string}> | undefined = $state([random_item(items), items[4]]);
+	let mreows: Array<{glyph: string}> | undefined = $state([random_item(items), items[4]!]);
 </script>
 
 <main>
