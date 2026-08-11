@@ -58,7 +58,7 @@ gro sync # called by `gro dev`, refreshes generated files and calls `svelte-kit 
 > and [fuz_ui](https://github.com/fuzdev/fuz_ui)
 
 > [Windows will not be supported](https://github.com/fuzdev/fuz_template/issues/4) because
-> I chose Bash instead - Fuz recommends [WSL](https://docs.microsoft.com/en-us/windows/wsl/about)
+> it depends on sh, [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) is recommended
 
 The template includes
 [`@sveltejs/adapter-static`](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
